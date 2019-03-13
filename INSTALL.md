@@ -15,9 +15,11 @@ You should now see (paotm) at the start of your command prompt
 ```
 
 Get the bmi source source and install 
+```
 (paotm) >pip install bmi-python==0.2.7
+```
 
-* Run test from jupyter notebook
+Run test from jupyter notebook
 
 ```
 (paotm) >jupyter notebook "Ex1 - River.ipynb"
