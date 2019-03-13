@@ -1,41 +1,39 @@
 Anaconda and Windows setup python environment 
 
 ```
-(>conda create -n "paotm" python=3)
-(>conda activate paotm)
+>conda create -n "paotm" python=3
+>conda activate paotm
 ```
 
 You should now see (paotm) at the start of your command prompt
 
 ```
->conda install jupyter 
->conda install matplotlib numpy==1.14.6
-
-(>conda install netcdf4 cython)
-(>conda install ipywidgets)
-(>pip install pywin32)
-
+(paotm) >conda install jupyter
+(paotm) >conda install tornado==5.1.1
+(paotm) >conda install matplotlib numpy==1.14.6
+(paotm) >pip install pywin32
 ```
 
 Get the bmi source source and install 
->pip install bmi-python==0.2.7
-```
-(>pip install git+https://github.com/openearth/bmi-python.git)
-```
+(paotm) >pip install bmi-python==0.2.7
 
 * Run test from jupyter notebook
 
 ```
->jupyter notebook "Ex1 - River.ipynb"
+(paotm) >jupyter notebook "Ex1 - River.ipynb"
 ```
 
 
 ------------------------------------------------------------------------------
-Bij opnieuw opstarten:
+After a restart:
 1. Start via Start menu Anaconda Prompt. 
  
-2. Laad dan juiste omgeving:
+2. Load the correct environment:
+```
 > conda activate paotm
+```
  
-3. Laad de notebook 
+3. Load the notebook 
+```
 (paotm) > jupyter notebook "Ex1 - River.ipynb"
+```
