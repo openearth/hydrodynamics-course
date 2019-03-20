@@ -85,10 +85,10 @@
 ** INFO   : Closed file : t2.ext
 ** INFO   : Done initializing external forcings.
 ** INFO   : nogauss , nocg :            100             0
-** INFO   : Modelinit finished   at: 15:39:18, 20-03-2019
+** INFO   : Modelinit finished   at: 17:08:07, 20-03-2019
 ** INFO   : ** Model initialization was successful **
 ** INFO   : * Active Model definition:
-# Generated on 15:39:18, 20-03-2019
+# Generated on 17:08:07, 20-03-2019
 # Deltares, D-Flow FM Version 1.2.41.63463M, Mar 19 2019, 23:29:08
 # Source:https://svn.oss.deltares.nl/repos/delft3d/trunk/
 
