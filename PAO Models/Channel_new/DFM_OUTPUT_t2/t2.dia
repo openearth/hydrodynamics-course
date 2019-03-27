@@ -78,17 +78,16 @@
 ** INFO   : List of constituents defined in the model
 ** INFO   :        1 temperature
 ** INFO   : Start initializing external forcings...
-** INFO   : External Forcing or Initialising 'windx' from file 'windxdir.wnd'.
 ** INFO   : External Forcing or Initialising 'initialverticaltemperatureprofile' from file 'inivert.pli'.
 ** INFO   : Opened file : inivert.pli
 ** INFO   : Closed file : inivert.pli
 ** INFO   : Closed file : t2.ext
 ** INFO   : Done initializing external forcings.
 ** INFO   : nogauss , nocg :            100             0
-** INFO   : Modelinit finished   at: 17:08:07, 20-03-2019
+** INFO   : Modelinit finished   at: 15:31:23, 27-03-2019
 ** INFO   : ** Model initialization was successful **
 ** INFO   : * Active Model definition:
-# Generated on 17:08:07, 20-03-2019
+# Generated on 15:31:23, 27-03-2019
 # Deltares, D-Flow FM Version 1.2.41.63463M, Mar 19 2019, 23:29:08
 # Source:https://svn.oss.deltares.nl/repos/delft3d/trunk/
 
@@ -316,7 +315,7 @@ hminlw                            = 0.2                 # Cut-off depth for appl
 [time]
 RefDate                           = 20010101            # Reference date (yyyymmdd)
 Tzone                             = 0.                  # Time zone assigned to input time series
-DtUser                            = 2160060.            # Time interval (s) for external forcing update
+DtUser                            = 60.                 # Time interval (s) for external forcing update
 DtNodal                           = 21600.              # Time interval (s) for updating nodal factors in astronomical boundary conditions
 DtMax                             = 60.                 # Maximal computation timestep (s)
 Dtfacmax                          = 1.1                 # Max timestep increase factor ( )
@@ -338,13 +337,13 @@ ExtForceFileNew                   =                     # New format for externa
 Rainfall                          = 0                   # Include rainfall, (0=no, 1=yes)
 QinExt                            = 0                   # Include user Qin, externally provided, (0=no, 1=yes)
 Evaporation                       = 0                   # Include evaporation in water balance, (0=no, 1=yes)
-WindExt                           = 1                   # Include wind, externally provided, (0=no, 1=reserved for EC, 2=yes)
+WindExt                           = 2                   # Include wind, externally provided, (0=no, 1=reserved for EC, 2=yes)
 
 [trachytopes]
 TrtRou                            =                     # Include alluvial and vegetation roughness (trachytopes) (Y: yes, N: no)
 TrtDef                            =                     # File (*.ttd) including trachytope definitions
 TrtL                              =                     # File (*.arl) including distribution of trachytope definitions
-DtTrt                             = 2160060.            # Trachytope roughness update time interval (s)
+DtTrt                             = 60.                 # Trachytope roughness update time interval (s)
 TrtMxR                            = 8                   # Maximum recursion level for combined trachytope definitions
 TrtCll                            =                     # Calibration factor file for roughness from trachytopes (see also [calibration] block)
 TrtMnH                            = 0.1                 # Minimum water depth for roughness computations

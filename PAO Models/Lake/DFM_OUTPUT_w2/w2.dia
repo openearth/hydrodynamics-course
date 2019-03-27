@@ -25,7 +25,6 @@
 ** DEBUG  :  Renumber flow nodes...
 ** DEBUG  :  Sumdiff:     3000100   Sumdiff renum:      3323500
 ** DEBUG  :  Bandwidth:         201   Bandwidth renum:          201
-** INFO   : Opened file : w1.ext
 ** DEBUG  :           14  2.0199999E-02  xe (nx)
 ** DEBUG  :           14  2.0199999E-02  ye (nx)
 ** DEBUG  :           14  2.0199999E-02  xyen(2, nx)
@@ -142,35 +141,31 @@
 ** DEBUG  :           35  9.9999998E-03  fu   (lnkx)
 ** DEBUG  :           35  9.9999998E-03  ru   (lnkx)
 ** INFO   : Start initializing external forcings...
-** INFO   : External Forcing or Initialising 'windx' from file 'windxdir.wnd'.
-** DEBUG  :           35  1.9800000E-02  kcw(lnx)
-** DEBUG  :           36  3.9600000E-02  wx(lnx), wy(lnx)
-** INFO   : Closed file : w1.ext
 ** INFO   : Done initializing external forcings.
-** DEBUG  :           36  1.9800000E-02  klnup(6,lnx)
-** DEBUG  :           36  1.9800000E-02  slnup(6,lnx)
+** DEBUG  :           35  1.9800000E-02  klnup(6,lnx)
+** DEBUG  :           35  1.9800000E-02  slnup(6,lnx)
 ** DEBUG  :           36  9.9999998E-03  ij(nodtot)
 ** DEBUG  :           36  9.9999998E-03  nodbr2(nodtot)
 ** DEBUG  :           36  9.9999998E-03  nbrstk(nodtot)
 ** DEBUG  :           36  9.9999998E-03  nodstk(nodtot)
 ** DEBUG  :           36  9.9999998E-03  noel(nodtot)
 ** DEBUG  :           36  9.9999998E-03  noel0(nodtot)
-** DEBUG  :           37  9.9999998E-03  ia(nodtot)
-** DEBUG  :           37  9.9999998E-03  row(nodtot)
-** DEBUG  :           37  1.9800000E-02  lv2(lintot)
-** DEBUG  :           37  9.9999998E-03  jagauss(nodtot)
-** DEBUG  :           38  3.9790999E-02  ccr(0:ijstck)
+** DEBUG  :           36  9.9999998E-03  ia(nodtot)
+** DEBUG  :           36  9.9999998E-03  row(nodtot)
+** DEBUG  :           36  1.9800000E-02  lv2(lintot)
+** DEBUG  :           36  9.9999998E-03  jagauss(nodtot)
+** DEBUG  :           37  3.9790999E-02  ccr(0:ijstck)
 ** DEBUG  :           38  3.9790999E-02  bbl(0:ijstck)
 ** DEBUG  :           38  2.0000000E-02  bbr(nodtot), ddr(nodtot)
-** DEBUG  :           39  5.0000001E-02  d0(nodtot), zkr(nodtot),pk(0:nodtot), apk(nodtot), rk(nodtot)
+** DEBUG  :           38  5.0000001E-02  d0(nodtot), zkr(nodtot),pk(0:nodtot), apk(nodtot), rk(nodtot)
 ** INFO   : nogauss , nocg :           4970          5030
-** DEBUG  :           41  0.2759700      iao(nn+1)
-** DEBUG  :           42  0.1150100      ao(na)
+** DEBUG  :           40  0.2759700      iao(nn+1)
+** DEBUG  :           41  0.1150100      ao(na)
 ** DEBUG  :           44  0.3018000      wk(nwk)
-** INFO   : Modelinit finished   at: 16:19:39, 20-03-2019
+** INFO   : Modelinit finished   at: 15:47:14, 22-03-2019
 ** INFO   : ** Model initialization was successful **
 ** INFO   : * Active Model definition:
-# Generated on 16:19:39, 20-03-2019
+# Generated on 15:47:14, 22-03-2019
 # Deltares, D-Flow FM Version 1.2.41.63463M, Mar 19 2019, 23:29:08
 # Source:https://svn.oss.deltares.nl/repos/delft3d/trunk/
 
@@ -417,12 +412,12 @@ RestartFile                       =                     # Restart netcdf-file, e
 RestartDateTime                   = yyyymmddhhmmss      # Restart date and time (yyyymmddhhmmss) when restarting from *_map.nc
 
 [external forcing]
-ExtForceFile                      = w1.ext              # Old format for external forcings file *.ext, link with tim/cmp-format boundary conditions specification
+ExtForceFile                      =                     # Old format for external forcings file *.ext, link with tim/cmp-format boundary conditions specification
 ExtForceFileNew                   =                     # New format for external forcings file *.ext, link with bc-format boundary conditions specification
 Rainfall                          = 0                   # Include rainfall, (0=no, 1=yes)
 QinExt                            = 0                   # Include user Qin, externally provided, (0=no, 1=yes)
 Evaporation                       = 0                   # Include evaporation in water balance, (0=no, 1=yes)
-WindExt                           = 1                   # Include wind, externally provided, (0=no, 1=reserved for EC, 2=yes)
+WindExt                           = 2                   # Include wind, externally provided, (0=no, 1=reserved for EC, 2=yes)
 
 [trachytopes]
 TrtRou                            =                     # Include alluvial and vegetation roughness (trachytopes) (Y: yes, N: no)
