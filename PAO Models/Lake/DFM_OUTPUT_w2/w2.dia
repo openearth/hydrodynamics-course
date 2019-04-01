@@ -162,10 +162,10 @@
 ** DEBUG  :           40  0.2759700      iao(nn+1)
 ** DEBUG  :           41  0.1150100      ao(na)
 ** DEBUG  :           44  0.3018000      wk(nwk)
-** INFO   : Modelinit finished   at: 15:47:14, 22-03-2019
+** INFO   : Modelinit finished   at: 10:49:48, 01-04-2019
 ** INFO   : ** Model initialization was successful **
 ** INFO   : * Active Model definition:
-# Generated on 15:47:14, 22-03-2019
+# Generated on 10:49:48, 01-04-2019
 # Deltares, D-Flow FM Version 1.2.41.63463M, Mar 19 2019, 23:29:08
 # Source:https://svn.oss.deltares.nl/repos/delft3d/trunk/
 
@@ -548,3 +548,5 @@ ProcessFluxIntegration            = 1                   # Process fluxes integra
 ** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_w2\w2_20010101_000000_rst.nc' as #262144.
 ** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_w2\w2_20010101_000000_rst.nc.
 ** INFO   : Done writing initial output to file(s).
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_w2\w2_20010102_000000_rst.nc' as #262144.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_w2\w2_20010102_000000_rst.nc.
