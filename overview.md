@@ -27,7 +27,7 @@ Here you can find an overview of the exercises that are part of the course, incl
     - 4.3 Wind over lake with uniform depth (3D)
     - 4.4 Wind over lake with non-uniform depth (3D)
   
-  - </b>Ex. 5: Wind-effects on a stratified lake</b>:
+  - <b>Ex. 5: Wind-effects on a stratified lake</b>:
     - 5.1 Baroclinic tilt and vertical  circulations
     - 5.2 Internal flow
 
