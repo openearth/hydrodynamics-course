@@ -44,26 +44,26 @@ Below you can find a table with the variables/parameters that are steerable trou
 | Exercise number | Exercise name | Steerable parameter (in brackets the variable name) |
 | --- | --- | --- |
 | 1     | Channel flow              | |
-|  &#09;1.1   | Equilibrium flow          | Chézy roughness (frcu), inflow discharge Q (zbndq), outflow water level $zeta; (zbndz)|
-|  &#09;1.2   | Backwater curve           | idem |
-|  &#09;1.3   | Flood wave                | Chézy roughness (frcu), outflow water level &zeta; (zbndz), time series of Q or &zeta; at inflow (from file or steerable?) |
+|  &nbsp;&nbsp; 1.1   | Equilibrium flow          | Chézy roughness (frcu), inflow discharge Q (zbndq), outflow water level $zeta; (zbndz)|
+|  &nbsp;&nbsp; 1.2   | Backwater curve           | idem |
+|  &nbsp;&nbsp; 1.3   | Flood wave                | Chézy roughness (frcu), outflow water level &zeta; (zbndz), time series of Q or &zeta; at inflow (from file or steerable?) |
 | 2     | Weir flow                 |      |  
-| <pre>2.1</pre>   | Energy loss               | Chézy roughness (frcu), inflow discharge Q (zbndq), outflow water level &zeta; (zbndz) |
-| <pre>2.2</pre>   | Perfect weir flow         | idem |
-| <pre>2.3</pre>   | Drowned weir flow         | idem |
+| &nbsp;&nbsp; 2.1   | Energy loss               | Chézy roughness (frcu), inflow discharge Q (zbndq), outflow water level &zeta; (zbndz) |
+| &nbsp;&nbsp; 2.2   | Perfect weir flow         | idem |
+| &nbsp;&nbsp; 2.3   | Drowned weir flow         | idem |
 | 3     | Groyne flow               |      |
-| <pre>3.1</pre>   | Energy loss               | idem |
-| <pre>3.2</pre>   | Flow structure (eddies)   | idem |
-| <pre>(3.3)</pre> | (Grid resolution)         | idem |
+| &nbsp;&nbsp; 3.1   | Energy loss               | idem |
+| &nbsp;&nbsp; 3.2   | Flow structure (eddies)   | idem |
+| &nbsp;&nbsp; (3.3) | (Grid resolution)         | idem |
 | 4     | Wind-generated set-up and circulations in a homogeneous lake | |
-| <pre>4.1</pre>   | Wind over lake with uniform depth (2DH) | Wind x-velocity (wx) |
-| <pre>4.2</pre>   | Wind over lake with non-uniform depth (2DH) | idem |
-| <pre>4.3</pre>   | Wind over lake with uniform depth (3D) | idem |
-| <pre>4.4</pre>   | Wind over lake with non-uniform depth (3D) | idem |
+| &nbsp;&nbsp; 4.1   | Wind over lake with uniform depth (2DH) | Wind x-velocity (wx) |
+| &nbsp;&nbsp; 4.2   | Wind over lake with non-uniform depth (2DH) | idem |
+| &nbsp;&nbsp; 4.3   | Wind over lake with uniform depth (3D) | idem |
+| &nbsp;&nbsp; 4.4   | Wind over lake with non-uniform depth (3D) | idem |
 | 5     | Wind-effects on a stratified lake | |
-| <pre>5.1</pre>   | Baroclinic tilt and vertical  circulations | Wind x-velocity (wx) |
-| <pre>5.2</pre>   | Internal flow                              | idem |
+| &nbsp;&nbsp; 5.1   | Baroclinic tilt and vertical  circulations | Wind x-velocity (wx) |
+| &nbsp;&nbsp; 5.2   | Internal flow                              | idem |
 | 6     | Estuarine hydrodynamics | |
-| <pre>6.1</pre>   | Stratified or mixed? | Chézy roughness (frcu), inflow discharge Q (zbndq), M2 tidal amplitude (par_M2), S2 tidal amplitude (par_S2) |
-| <pre>6.2</pre>   | Harbor basins  | idem |
-| <pre>6.3</pre>   | Classification | idem |
+| &nbsp;&nbsp; 6.1   | Stratified or mixed? | Chézy roughness (frcu), inflow discharge Q (zbndq), M2 tidal amplitude (par_M2), S2 tidal amplitude (par_S2) |
+| &nbsp;&nbsp; 6.2   | Harbor basins  | idem |
+| &nbsp;&nbsp; 6.3   | Classification | idem |
