@@ -58,12 +58,12 @@ Below you can find a table with the variables/parameters that are steerable trou
 | 4     | Wind-generated set-up and circulations in a homogeneous lake | |
 | 4.1   | Wind over lake with uniform depth (2DH) | Wind x-velocity (wx) |
 | 4.2   | Wind over lake with non-uniform depth (2DH) | idem |
-| 4.3   | Wind over lake with uniform depth (3D) | |
-| 4.4   | Wind over lake with non-uniform depth (3D) | |
+| 4.3   | Wind over lake with uniform depth (3D) | idem |
+| 4.4   | Wind over lake with non-uniform depth (3D) | idem |
 | 5     | Wind-effects on a stratified lake | |
-| 5.1   | Baroclinic tilt and vertical  circulations | |
-| 5.2   | Internal flow                              | |
+| 5.1   | Baroclinic tilt and vertical  circulations | Wind x-velocity (wx) |
+| 5.2   | Internal flow                              | idem |
 | 6     | Estuarine hydrodynamics | |
 | 6.1   | Stratified or mixed? | |
-| 6.2   | Harbor basins | |
-| 6.3   | Classification | |
+| 6.2   | Harbor basins | Chézy roughness (frcu), inflow discharge Q (zbndq), M2 tidal amplitude (par_M2), S2 tidal amplitude (par_S2) |
+| 6.3   | Classification | idem |
