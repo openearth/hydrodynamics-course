@@ -64,6 +64,6 @@ Below you can find a table with the variables/parameters that are steerable trou
 | 5.1   | Baroclinic tilt and vertical  circulations | Wind x-velocity (wx) |
 | 5.2   | Internal flow                              | idem |
 | 6     | Estuarine hydrodynamics | |
-| 6.1   | Stratified or mixed? | |
-| 6.2   | Harbor basins | Chézy roughness (frcu), inflow discharge Q (zbndq), M2 tidal amplitude (par_M2), S2 tidal amplitude (par_S2) |
+| 6.1   | Stratified or mixed? | Chézy roughness (frcu), inflow discharge Q (zbndq), M2 tidal amplitude (par_M2), S2 tidal amplitude (par_S2) |
+| 6.2   | Harbor basins  | idem |
 | 6.3   | Classification | idem |
