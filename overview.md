@@ -52,7 +52,7 @@ Below you can find a table with the variables/parameters that are steerable trou
 | &nbsp;&nbsp; 2.2   | Perfect weir flow         | idem |
 | &nbsp;&nbsp; 2.3   | Drowned weir flow         | idem |
 | <b>3</b>     | <b>Groyne flow</b>               |      |
-| &nbsp;&nbsp; 3.1   | Energy loss               | idem |
+| &nbsp;&nbsp; 3.1   | Energy loss               | Chézy roughness (frcu), inflow discharge Q (zbndq), outflow water level &zeta; (zbndz) |
 | &nbsp;&nbsp; 3.2   | Flow structure (eddies)   | idem |
 | &nbsp;&nbsp; (3.3) | (Grid resolution)         | idem |
 | <b>4</b>     | <b>Wind-generated set-up and circulations in a homogeneous lake</b> | |
