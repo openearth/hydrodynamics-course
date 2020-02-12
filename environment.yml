@@ -1,8 +1,8 @@
-name: hydrodynamics-course
+name: paotm-2020
 channels:
   - conda-forge
 dependencies:
-  - numpy
+  - numpy==1.14.6
   - psutil
   - toolz
   - matplotlib
@@ -11,3 +11,6 @@ dependencies:
   - partd
   - bokeh
   - dask
+  - jupyter
+  - pip:
+    - bmi-python==0.2.7
