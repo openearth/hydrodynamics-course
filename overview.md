@@ -44,9 +44,9 @@ Below you can find a table with the variables/parameters that are steerable trou
 | Exercise number | Exercise name | Steerable parameter (in brackets the variable name) |
 | --- | --- | --- |
 | 1     | Channel flow              | |
-|  <pre>1.1</pre>   | Equilibrium flow          | Chézy roughness (frcu), inflow discharge Q (zbndq), outflow water level $zeta; (zbndz)|
-|  <pre>1.2</pre>   | Backwater curve           | idem |
-|  <pre>1.3</pre>   | Flood wave                | Chézy roughness (frcu), outflow water level &zeta; (zbndz), time series of Q or &zeta; at inflow (from file or steerable?) |
+|  &#09;1.1   | Equilibrium flow          | Chézy roughness (frcu), inflow discharge Q (zbndq), outflow water level $zeta; (zbndz)|
+|  &#09;1.2   | Backwater curve           | idem |
+|  &#09;1.3   | Flood wave                | Chézy roughness (frcu), outflow water level &zeta; (zbndz), time series of Q or &zeta; at inflow (from file or steerable?) |
 | 2     | Weir flow                 |      |  
 | <pre>2.1</pre>   | Energy loss               | Chézy roughness (frcu), inflow discharge Q (zbndq), outflow water level &zeta; (zbndz) |
 | <pre>2.2</pre>   | Perfect weir flow         | idem |
