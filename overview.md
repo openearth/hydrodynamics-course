@@ -86,6 +86,9 @@ The variable names used are as follows:<br/>
 &nbsp;&nbsp; sal = salinity [ppt],<br/>
 &nbsp;&nbsp; tem = temperature [° Celcius],<br/>
 &nbsp;&nbsp; zws = grid layer z-positions [m], </br>
+sometimes variable:</br>
+&nbsp;&nbsp; z = grid layer z-positions [m], </br>
+is used (computed/sliced in some way from zws).
 
 
 | Exercise number | Exercise name | Plot description (type, subplots, variables, options) | 
@@ -98,5 +101,5 @@ The variable names used are as follows:<br/>
 | &nbsp;&nbsp; 4.2   | Wind over lake with non-uniform depth (2DH) | idem |
 | &nbsp;&nbsp; 4.3   | Wind over lake with uniform depth (3D) | Plot with 4 subplots (2,2). Subplot 1 (top left): (x,y,ucx_top)-contour. Subplot 2 (top right): (x,y,s1)-contour. Subplot 3 (bottom left): (x_slice, zws, slice_ucx) contour plot. Subplot 4 (bottom right): (slice_ucx[lx/2], zws[lx/2]) line plot of velocity profile. Note1: the function grid2matrix together with parameters (indx,indy) are used to sort the grid to ascending (x,y) indicdes, with SPECIAL TREATMENT of the z-dimension. Also an additional loop in function UPDATE_DATA taking into account the 3rd dimension. Note2: The ylabel is switched off for the right subplot. Note3: The position of subplot 2 is specified relative to the position of subplot 1. Note4: 2 separate colourbars. |
 | &nbsp;&nbsp; 4.4   | Wind over lake with non-uniform depth (3D) | idem, with an additional slice line in subplots (1,1) and (2,1), i.e. top left and bottom left. |
-| <b>5</b>     | <b>Wind-effects on a stratified lake</b> | Plot with 6 subplots (3,2). Subplot 1 spans both columns (top row): (x,zws,sal). Subplot 2 spans both colums (middle row): (t,s1)-plot (dots, no line). Subplot 3 (bottom left): (sal,z)-line. Subplot 4 (bottom right): (ucx,z)-line.    |
-| <b>6</b>     | <b>Estuarine hydrodynamics</b> |    |
+| <b>5</b>     | <b>Wind-effects on a stratified lake</b> | Plot with 3 subplots over (2,3) area. Subplot 1 spans all 3 columns (top row): (x,zws,temp) and contains a slice line (indicating the slice position of subplots 2 and 3). Subplot 2 (bottom left): (temp,z)-line. Subplot 3 (bottom right): (ucx,z)-line. Subplot (3,3) is empty |
+| <b>6</b>     | <b>Estuarine hydrodynamics</b> | Plot with 6 subplots (3,2). Subplot 1 spans both columns (top row): (x,zws,sal). Subplot 2 spans both colums (middle row): (t,s1)-plot (dots, no line). Subplot 3 (bottom left): (sal,z)-line. Subplot 4 (bottom right): (ucx,z)-line. Note1: mako package is used for replacing boundary condition values (M2 and S2 amplitudes) in .bc files.  |
