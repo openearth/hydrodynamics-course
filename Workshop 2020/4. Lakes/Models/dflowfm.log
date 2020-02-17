@@ -1,0 +1,558 @@
+** INFO   : Opened file : ISOCOLOUR.hls
+** INFO   : Using Local FileISOCOLOUR.hls
+** INFO   : Closed file : ISOCOLOUR.hls
+** INFO   : Opened file : ISOCOLOUR.hls
+** INFO   : Using Local FileISOCOLOUR.hls
+** INFO   : Closed file : ISOCOLOUR.hls
+** INFO   :  MAXIMUM NUMBER OF LINKS         :            2
+** INFO   :  MAXIMUM NUMBER OF NODES         :            0
+** INFO   :  RESOLUTION GRAPHICS SCREEN      :         1600         990
+** INFO   :  RESOLUTION TEXT     SCREEN      :          200          66
+** INFO   :  NUMBER OF COLOURS AVAILABLE     :          256
+** DEBUG  :            0  0.1000020     NOD(KMAX)
+** DEBUG  :            6  0.7000140     XK (KMAX), YK (KMAX), ZK (KMAX), KC (KMAX), NMK (KMAX), RNOD(KMAX)
+ Node: w1.mdu
+    (unknown data type) -- ? --  T
+    Node: model
+       (unknown data type) -- ? --  T
+       Node: program
+          D-Flow FM -- STRING --  T
+       Node: version
+          1.2.41.60781M -- STRING --  T
+       Node: mduformatversion
+          1.06 -- STRING --  T
+       Node: autostart
+          0 -- STRING --  T
+       Node: modelspecific
+           -- STRING --  T
+    Node: geometry
+       (unknown data type) -- ? --  T
+       Node: netfile
+          10x10km2_net.nc -- STRING --  T
+       Node: gridenclosurefile
+           -- STRING --  T
+       Node: bedlevelfile
+           -- STRING --  T
+       Node: drypointsfile
+           -- STRING --  T
+       Node: waterlevinifile
+           -- STRING --  T
+       Node: landboundaryfile
+           -- STRING --  T
+       Node: thindamfile
+           -- STRING --  T
+       Node: cutcelllist
+           -- STRING --  T
+       Node: fixedweirfile
+           -- STRING --  T
+       Node: pillarfile
+           -- STRING --  T
+       Node: gulliesfile
+           -- STRING --  T
+       Node: roofsfile
+           -- STRING --  T
+       Node: vertplizfile
+           -- STRING --  T
+       Node: proflocfile
+           -- STRING --  T
+       Node: profdeffile
+           -- STRING --  T
+       Node: profdefxyzfile
+           -- STRING --  T
+       Node: uniformwidth1d
+          2. -- STRING --  T
+       Node: uniformheight1d
+          3000. -- STRING --  T
+       Node: uniformtyp1dstreetinlets
+          -2 -- STRING --  T
+       Node: uniformtyp1droofgutterpipes
+          -2 -- STRING --  T
+       Node: manholefile
+           -- STRING --  T
+       Node: pipefile
+           -- STRING --  T
+       Node: shipdeffile
+           -- STRING --  T
+       Node: waterlevini
+          0. -- STRING --  T
+       Node: waterdepthini1d
+          0. -- STRING --  T
+       Node: bedlevuni
+          -5. -- STRING --  T
+       Node: bedlevtype
+          3 -- STRING --  T
+       Node: partitionfile
+           -- STRING --  T
+       Node: anglat
+          0. -- STRING --  T
+       Node: anglon
+          0. -- STRING --  T
+       Node: conveyance2d
+          1 -- STRING --  T
+       Node: slotw2d
+          0. -- STRING --  T
+    Node: numerics
+       (unknown data type) -- ? --  T
+       Node: cflmax
+          0.7 -- STRING --  T
+       Node: advectype
+          33 -- STRING --  T
+       Node: timesteptype
+          2 -- STRING --  T
+       Node: icoriolistype
+          5 -- STRING --  T
+       Node: limtypmom
+          4 -- STRING --  T
+       Node: limtypsa
+          4 -- STRING --  T
+       Node: transportmethod
+          1 -- STRING --  T
+       Node: transporttimestepping
+          1 -- STRING --  T
+       Node: vertadvtypsal
+          6 -- STRING --  T
+       Node: vertadvtyptem
+          6 -- STRING --  T
+       Node: zlayercenterbedvel
+          5 -- STRING --  T
+       Node: icgsolver
+          4 -- STRING --  T
+       Node: noderivedtypes
+          5 -- STRING --  T
+       Node: tlfsmo
+          0. -- STRING --  T
+       Node: logprofkepsbndin
+          0 -- STRING --  T
+       Node: slopedrop2d
+          0. -- STRING --  T
+       Node: cstbnd
+          0 -- STRING --  T
+       Node: epshu
+          1.d-4 -- STRING --  T
+       Node: jaupwindsrc
+          1 -- STRING --  T
+       Node: jasfer3d
+          0 -- STRING --  T
+    Node: physics
+       (unknown data type) -- ? --  T
+       Node: uniffrictcoef
+          2.3d-2 -- STRING --  T
+       Node: uniffricttype
+          1 -- STRING --  T
+       Node: uniffrictcoef1d
+          2.3d-2 -- STRING --  T
+       Node: uniffrictcoef1d2d
+          2.3d-2 -- STRING --  T
+       Node: uniffrictcoeflin
+          0. -- STRING --  T
+       Node: uniffrictcoef1dgrlay
+          5.d-2 -- STRING --  T
+       Node: vicouv
+          1. -- STRING --  T
+       Node: dicouv
+          1. -- STRING --  T
+       Node: smagorinsky
+          0. -- STRING --  T
+       Node: elder
+          0. -- STRING --  T
+       Node: irov
+          0 -- STRING --  T
+       Node: wall_ks
+          0. -- STRING --  T
+       Node: rhomean
+          1000. -- STRING --  T
+       Node: idensform
+          0 -- STRING --  T
+       Node: ag
+          9.81 -- STRING --  T
+       Node: tidalforcing
+          0 -- STRING --  T
+       Node: selfattractionloading
+          0 -- STRING --  T
+       Node: itcap
+          0. -- STRING --  T
+       Node: villemontecd1
+          1. -- STRING --  T
+       Node: villemontecd2
+          10. -- STRING --  T
+       Node: salinity
+          0 -- STRING --  T
+       Node: temperature
+          0 -- STRING --  T
+       Node: secondaryflow
+          0 -- STRING --  T
+    Node: wind
+       (unknown data type) -- ? --  T
+       Node: icdtyp
+          2 -- STRING --  T
+       Node: cdbreakpoints
+          6.3d-4 7.23d-3 -- STRING --  T
+       Node: windspeedbreakpoints
+          0. 100. -- STRING --  T
+       Node: relativewind
+          0 -- STRING --  T
+       Node: rhoair
+          1.2 -- STRING --  T
+       Node: pavbnd
+          0. -- STRING --  T
+       Node: pavini
+          0. -- STRING --  T
+       Node: stericcorrection
+          0 -- STRING --  T
+    Node: time
+       (unknown data type) -- ? --  T
+       Node: refdate
+          20010101 -- STRING --  T
+       Node: tzone
+          0. -- STRING --  T
+       Node: dtuser
+          120. -- STRING --  T
+       Node: dtnodal
+          21600. -- STRING --  T
+       Node: dtmax
+          60. -- STRING --  T
+       Node: dtfacmax
+          1.1 -- STRING --  T
+       Node: dtinit
+          1. -- STRING --  T
+       Node: timestepanalysis
+          0 -- STRING --  T
+       Node: tunit
+          S -- STRING --  T
+       Node: tstart
+          0. -- STRING --  T
+       Node: tstop
+          8640000. -- STRING --  T
+    Node: restart
+       (unknown data type) -- ? --  T
+       Node: restartfile
+           -- STRING --  T
+       Node: restartdatetime
+           -- STRING --  T
+    Node: external forcing
+       (unknown data type) -- ? --  T
+       Node: extforcefile
+          w1.ext -- STRING --  T
+       Node: extforcefilenew
+           -- STRING --  T
+    Node: output
+       (unknown data type) -- ? --  T
+       Node: outputdir
+           -- STRING --  T
+       Node: flowgeomfile
+           -- STRING --  T
+       Node: obsfile
+           -- STRING --  T
+       Node: crsfile
+           -- STRING --  T
+       Node: foufile
+           -- STRING --  T
+       Node: fouupdatestep
+          0 -- STRING --  T
+       Node: hisfile
+           -- STRING --  T
+       Node: mapfile
+           -- STRING --  T
+       Node: hisinterval
+          120. 0. 0. -- STRING --  T
+       Node: xlsinterval
+          0. -- STRING --  T
+       Node: mapinterval
+          1200. 0. 0. -- STRING --  T
+       Node: rstinterval
+          86400. 0. 0. -- STRING --  T
+       Node: waqoutputdir
+           -- STRING --  T
+       Node: waqinterval
+          0. 0. 0. -- STRING --  T
+       Node: classmapinterval
+          0. 0. 0. -- STRING --  T
+       Node: classmapfile
+           -- STRING --  T
+       Node: statsinterval
+          -60. -- STRING --  T
+       Node: timingsinterval
+          0. -- STRING --  T
+       Node: timesplitinterval
+          0 s -- STRING --  T
+       Node: mapformat
+          4 -- STRING --  T
+       Node: ncformat
+          3 -- STRING --  T
+       Node: writepart_domain
+          1 -- STRING --  T
+       Node: writedfminterpretedvalues
+          0 -- STRING --  T
+       Node: mapoutputtimevector
+           -- STRING --  T
+       Node: fullgridoutput
+          0 -- STRING --  T
+       Node: eulervelocities
+          0 -- STRING --  T
+       Node: wrirst_bnd
+          1 -- STRING --  T
+    Node: processes
+       (unknown data type) -- ? --  T
+       Node: substancefile
+           -- STRING --  T
+       Node: additionalhistoryoutputfile
+           -- STRING --  T
+       Node: thetavertical
+          0. -- STRING --  T
+       Node: dtprocesses
+          0. -- STRING --  T
+       Node: dtmassbalance
+          0. -- STRING --  T
+       Node: processfluxintegration
+          1 -- STRING --  T
+** WARNING: readMDUFile: [geometry] uniformtyp1dstreetinlets=-2 was in file, but not used. Check possible typo.
+** WARNING: readMDUFile: [geometry] uniformtyp1droofgutterpipes=-2 was in file, but not used. Check possible typo.
+** DEBUG  : unc_read_net_ugrid: net file '10x10km2_net.nc' is not UGRID. No problem, will fall back to old format reader.
+** DEBUG  : Opened '10x10km2_net.nc' as #     65536.
+** DEBUG  : Closed NetCDF file '10x10km2_net.nc.
+** INFO   : Initializing flow model geometry...
+** DEBUG  : Opened '10x10km2_net.nc' as #     65536.
+** DEBUG  :            6  1.5301000E-02 netcell(numpx1)
+** DEBUG  :            6  2.0199999E-02 lnn(numl)
+** DEBUG  :            7  4.0399998E-02 lne(2,numl)
+** DEBUG  :            7  9.9999998E-03 xz(numc)
+** DEBUG  :            7  9.9999998E-03 yz(numc)
+** DEBUG  :            7  9.9999998E-03 xzw(numc)
+** DEBUG  :            7  9.9999998E-03 yzw(numc)
+** DEBUG  :            7  9.9999998E-03 ba(numc)
+** DEBUG  :  Renumber flow nodes...
+** DEBUG  :  Sumdiff:     3000100  Sumdiff renum:      3323500
+** DEBUG  :  Bandwidth:         201  Bandwidth renum:          201
+** INFO   : Opened file : w1.ext
+** DEBUG  :            7  2.0199999E-02 xe (nx)
+** DEBUG  :            7  2.0199999E-02 ye (nx)
+** DEBUG  :            7  2.0199999E-02 xyen(2, nx)
+** DEBUG  :           10  0.3434000     kce(nx), ke(nx), kez(nx), keu(nx), kes(nx), ketm(nx), kesd(nx), keuxy(nx), ket(nx), ken(nx), ke1d2d(nx), keg(nx), ked(nx), kep(nx), kedb(nx), keklep(nx), kegs(nx), kegen(nx), itpez(nx), itpenz(nx), itpeu(nx) , itpenu(nx) , kew(nx), ftpet(nx)
+** DEBUG  :           10  2.0199999E-02 ketr(nx,1)
+** DEBUG  :           10  2.0199999E-02 kesf(1,nx)
+** DEBUG  :           11  7.9999998E-02 nd(ndx), bl(ndx), bai(ndx), bai_mor(ndx), ba_mor(ndx), kcs(ndx)
+** DEBUG  :           12  3.9600000E-02 ln   (2,lnx)
+** DEBUG  :           13  3.9600000E-02 lncn (2,lnx)
+** DEBUG  :           13  3.9600000E-02 bob  (2,lnx)
+** DEBUG  :           13  1.9800000E-02 dx   (  lnx)
+** DEBUG  :           13  1.9800000E-02 dxi  (  lnx)
+** DEBUG  :           14  1.9800000E-02 wu   (  lnx)
+** DEBUG  :           14  1.9800000E-02 wu_mor (  lnx)
+** DEBUG  :           14  1.9800000E-02 wui  (  lnx)
+** DEBUG  :           14  1.9800000E-02 kcu  (  lnx)
+** DEBUG  :           14  1.9800000E-02 csu  (  lnx)
+** DEBUG  :           14  1.9800000E-02 snu  (  lnx)
+** DEBUG  :           14  1.9800000E-02 acl  (  lnx)
+** DEBUG  :           15  1.9800000E-02 acn  (2,lnx)
+** DEBUG  :           15  1.9800000E-02 iadv   (lnx)
+** DEBUG  :           15  1.9800000E-02 teta   (lnx)
+** DEBUG  :           15  1.9800000E-02 ibot   (lnx)
+** DEBUG  :           16  5.9400000E-02 xu(lnx), yu(lnx) , blu(lnx)
+** DEBUG  :           16  2.0199999E-02 ln2lne (nex)
+** DEBUG  :           16  2.0199999E-02 lne2ln (nex)
+** DEBUG  : addexternalboundarypoints: added 0 bnd points for SOBEK1D-FM2D connections.
+** DEBUG  :           16  1.0201000E-02  cn (numk)
+** DEBUG  :           16  1.0201000E-02 ucnx(numk)
+** DEBUG  :           16  1.0201000E-02 ucny(numk)
+** DEBUG  :           17  1.0201000E-02 ban (numk)
+** INFO   : setbedlevelfromextfile: Using bedlevel as specified in net-file.
+** DEBUG  :           17  1.9800000E-02 wcnx3(lnx)
+** DEBUG  :           17  1.9800000E-02 wcny3(lnx)
+** DEBUG  :           17  1.9800000E-02 wcnx4(lnx)
+** DEBUG  :           17  1.9800000E-02 wcny4(lnx)
+** DEBUG  :           17  3.0602999E-02 wcnxy(3,numk)
+** DEBUG  :           18  1.0201000E-02 jacorner(numk)
+** DEBUG  :           18  9.9999998E-03 numlimdt(ndx)
+** DEBUG  :           18  6.8000001E-03 walls(17,nw)
+** DEBUG  :           18  1.9800000E-02 wcx1(lnx)
+** DEBUG  :           18  1.9800000E-02 wcy1(lnx)
+** DEBUG  :           18  1.9800000E-02 wcx2(lnx)
+** DEBUG  :           18  1.9800000E-02 wcy2(lnx)
+** DEBUG  :           18  2.0000000E-02 wcxy (2,ndx)
+** DEBUG  :           19  3.9600000E-02 wcL  (2,Lnx)
+** DEBUG  :           19  9.9999998E-03 wc     (ndx)
+** DEBUG  :           19  3.9999999E-02 banf(mxban)
+** DEBUG  :           20  3.9999999E-02 nban(4,mxban)
+** DEBUG  :           20  3.9999999E-02 rr(mxban), nr(mxban)
+** DEBUG  :           20  3.9999999E-02 banh (mxban)
+** DEBUG  :           21  3.9999999E-02 nbanh(4,mxban)
+** INFO   : Done initializing flow model geometry.
+** DEBUG  :           21  2.0000000E-02 s0  (ndx) , s1  (ndx)
+** DEBUG  :           21  2.0000000E-02 a0  (ndx) , a1  (ndx)
+** DEBUG  :           21  2.0000000E-02 hs  (ndx) , s00 (ndx)
+** DEBUG  :           21  9.9999998E-03 cfs (ndx)
+** DEBUG  :           21  9.9999998E-03 kbot (ndx)
+** DEBUG  :           21  9.9999998E-03 ktop (ndx)
+** DEBUG  :           22  9.9999998E-03 ktop0(ndx)
+** DEBUG  :           22  9.9999998E-03 kmxn (ndx)
+** DEBUG  :           22  1.9800000E-02 Lbot (Lnx)
+** DEBUG  :           22  1.9800000E-02 Ltop (Lnx)
+** DEBUG  :           22  1.9800000E-02 kmxL (Lnx)
+** DEBUG  :           22  1.9800000E-02 ustb  (lnx)
+** DEBUG  :           22  1.9800000E-02 ustw  (lnx)
+** DEBUG  :           23  9.9999998E-03 laydefnr(ndx)
+** DEBUG  :           23  2.0000000E-02 ucx (ndkx) , ucy (ndkx)
+** DEBUG  :           23  2.0000000E-02 uqcx(ndkx) , uqcy(ndkx)
+** DEBUG  :           23  2.0000000E-02 ucxq(ndkx) , ucyq(ndkx)
+** DEBUG  :           23  2.0000000E-02 qin (ndkx) , vih (ndkx)
+** DEBUG  :           23  2.0000000E-02 dvxc(ndkx) , dvyc(ndkx)
+** DEBUG  :           23  9.9999998E-03 squ (ndkx)
+** DEBUG  :           23  9.9999998E-03 sqi (ndkx)
+** DEBUG  :           24  9.9999998E-03 sq  (ndkx)
+** DEBUG  :           24  9.9999998E-03 sqa (ndkx)
+** DEBUG  :           24  9.9999998E-03 vol0(ndkx)
+** DEBUG  :           24  9.9999998E-03 vol1(ndkx)
+** DEBUG  :           24  9.9999998E-03 vol1_f(ndkx)
+** DEBUG  :           24  9.9999998E-03 volerror(ndkx)
+** DEBUG  :           24  9.9999998E-03 dtcell(ndkx)
+** DEBUG  :           24  9.9999998E-03 rho (ndkx)
+** DEBUG  :           24  9.9999998E-03 workx (ndkx)
+** DEBUG  :           24  9.9999998E-03 worky (ndkx)
+** DEBUG  :           24  1.9800000E-02 work0 (0:max(kmx,1),max(ndx,lnx))
+** DEBUG  :           25  1.9800000E-02 work1 (max(kmx,1),max(ndx,lnx))
+** DEBUG  :           25  1.9800000E-02 z0ucur(lnx)
+** DEBUG  :           25  1.9800000E-02 z0urou(lnx)
+** DEBUG  :           25  1.9800000E-02 cfuhi(lnx)
+** DEBUG  :           25  9.9999998E-03 frcu (lnx)
+** DEBUG  :           25  9.9999998E-03 frcu_mor (lnx)
+** DEBUG  :           25  9.9999998E-03 ifrcutp(lnx)
+** DEBUG  :           25  1.9800000E-02 wdsu  (lnx)
+** DEBUG  :           26  1.9800000E-02 u0   (lnkx)
+** DEBUG  :           26  1.9800000E-02 u1   (lnkx)
+** DEBUG  :           26  1.9800000E-02 q1   (lnkx)
+** DEBUG  :           26  1.9800000E-02 qa   (lnkx)
+** DEBUG  :           26  1.9800000E-02 v    (lnkx)
+** DEBUG  :           26  1.9800000E-02 ucxu (lnkx)
+** DEBUG  :           27  1.9800000E-02 ucyu (lnkx)
+** DEBUG  :           27  1.9800000E-02 hu   (lnkx)
+** DEBUG  :           27  1.9800000E-02 huvli(lnkx)
+** DEBUG  :           27  1.9800000E-02 au   (lnkx)
+** DEBUG  :           27  1.9800000E-02 viu  (lnkx)
+** DEBUG  :           27  1.9800000E-02 vicLu(lnkx)
+** DEBUG  :           28  1.9800000E-02 suu  (lnkx)
+** DEBUG  :           28  1.9800000E-02 advi (lnkx)
+** DEBUG  :           28  1.9800000E-02 adve (lnkx)
+** DEBUG  :           28  1.9800000E-02 plotlin(max(lnkx,ndkx))
+** DEBUG  :           28  9.9999998E-03 czs(ndx)
+** DEBUG  :           28  9.9999998E-03 bb   (ndx )
+** DEBUG  :           28  9.9999998E-03 dd   (ndx )
+** DEBUG  :           28  9.9999998E-03 fu   (lnkx)
+** DEBUG  :           28  9.9999998E-03 ru   (lnkx)
+** INFO   : Start initializing external forcings...
+** INFO   : External Forcing or Initialising 'windx' from file 'windxdir.wnd'.
+** DEBUG  :           29  1.9800000E-02 kcw(lnx)
+** DEBUG  :           29  3.9600000E-02 wx(lnx), wy(lnx)
+** DEBUG  : .
+** DEBUG  : EC MODULE ITEMS:
+** DEBUG  : Target Item 00015 (name=windx, vectormax=1)
+** DEBUG  : Element Set 00013
+** DEBUG  :    Connection 00017
+** DEBUG  :       Source Item 00011 (name=uniform_item, vectormax=1)
+** DEBUG  :          File Reader 00001(filename=windxdir.wnd)
+** DEBUG  :             Quantity = uniform_item
+** DEBUG  :             Location = windxdir.
+** DEBUG  : .
+** INFO   : Closed file : w1.ext
+** INFO   : Done initializing external forcings.
+** DEBUG  :           29  1.9800000E-02 klnup(6,lnx)
+** DEBUG  :           29  1.9800000E-02 slnup(6,lnx)
+** DEBUG  :           29  9.9999998E-03 ij(nodtot)
+** DEBUG  :           29  9.9999998E-03 nodbr2(nodtot)
+** DEBUG  :           29  9.9999998E-03 nbrstk(nodtot)
+** DEBUG  :           30  9.9999998E-03 nodstk(nodtot)
+** DEBUG  :           30  9.9999998E-03 noel(nodtot)
+** DEBUG  :           30  9.9999998E-03 noel0(nodtot)
+** DEBUG  :           30  9.9999998E-03 ia(nodtot)
+** DEBUG  :           30  9.9999998E-03 row(nodtot)
+** DEBUG  :           30  1.9800000E-02 lv2(lintot)
+** DEBUG  :           30  9.9999998E-03 jagauss(nodtot)
+** DEBUG  :           31  3.9790999E-02 ccr(0:ijstck)
+** DEBUG  :           31  3.9790999E-02 bbl(0:ijstck)
+** DEBUG  :           32  2.0000000E-02 bbr(nodtot), ddr(nodtot)
+** DEBUG  :           32  5.0000001E-02 d0(nodtot), zkr(nodtot),pk(0:nodtot), apk(nodtot), rk(nodtot)
+** INFO   : nogauss , nocg :           4970          5030
+** DEBUG  :           34  0.2759700     iao(nn+1)
+** DEBUG  :           35  0.1150100     ao(na)
+** DEBUG  :           37  0.3018000     wk(nwk)
+** INFO   : Modelinit finished   at: 11:57:19, 05-11-2019
+** INFO   : ** Model initialization was successful **
+** INFO   : * Active Model definition:
+** INFO   : **
+** INFO   : Start of the computation time loop
+** INFO   : Writing initial output to file(s)...
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_w1\w1_his.nc' as #131072.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_w1\w1_map.nc' as #196608.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_w1\w1_20010101_000000_rst.nc' as #262144.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_w1\w1_20010101_000000_rst.nc.
+** INFO   : Done writing initial output to file(s).
+** INFO   :    Sim. time done   Sim. time left   Real time used   Real time left Steps left Complete% Interval-averaged time step
+** INFO   :               0d  0:0             99d 23:5              0d  0:0              0d  1:3      71998     0.0%     0.00000
+** INFO   : User interrupt
+** INFO   : 
+** INFO   : 
+** INFO   : 
+** INFO   : nr of netnodes         ( )  :                    10201
+** INFO   : nr of netlinks         ( )  :                    20200
+** INFO   : nr of flownodes        ( )  :                    10000
+** INFO   : nr of openbnd cells    ( )  :                        0
+** INFO   : nr of 1D-flownodes     ( )  :                        0
+** INFO   : model area             (m2) :         0.1000000000E+09
+** INFO   : model volume           (m3) :         0.5000000000E+09
+** INFO   : 
+** INFO   : 
+** INFO   : 
+** INFO   : nr of timesteps        ( )  :          1356.0000000000
+** INFO   : average timestep       (s)  :          6371.6814159292
+** INFO   : 
+** INFO   : 
+** INFO   : simulation period      (d)  :           100.0000000000
+** INFO   : total computation time (d)  :             0.0002448611
+** INFO   : time modelinit         (d)  :             0.0000127199
+** INFO   : time steps (+ plots)   (d)  :             0.0002321412
+** INFO   : 
+** INFO   : simulation period      (h)  :          2400.0000000000
+** INFO   : total computation time (h)  :             0.0058766667
+** INFO   : time modelinit         (h)  :             0.0003052778
+** INFO   : time steps (+ plots)   (h)  :             0.0055713889
+** INFO   : 
+** INFO   : simulation period      (s)  :       8640000.0000000000
+** INFO   : total computation time (s)  :            21.1560000000
+** INFO   : time modelinit         (s)  :             1.0990000000
+** INFO   : time steps (+ plots)   (s)  :            20.0570000000
+** INFO   : 
+** INFO   : 
+** INFO   : time iniexternalforc.  (s)  :             0.1450000000
+** INFO   : 
+** INFO   : time inistep           (s)  :             4.0300000000
+** INFO   : time setumod           (s)  :             1.7450000001
+** INFO   : time furu              (s)  :             0.1190000000
+** INFO   : time solve             (s)  :             5.3920000001
+** INFO   : time setexternalforc.  (s)  :             0.1910000000
+** INFO   : time setexternalfbnd.  (s)  :             0.0040000000
+** INFO   : time steps             (s)  :            10.0470000001
+** INFO   : fraction solve/steps   ( )  :             0.5366776152
+** INFO   : total/(dnt*ndx)        (s)  :             0.0000014791
+** INFO   : av nr of cont. it s1it ( )  :             0.0000000000
+** INFO   : time transport [s]         :             0.0540000000
+** INFO   : time processes [s]         :             0.0010000000
+** INFO   : time debug     [s]         :             0.0000000000
+** INFO   : 
+** INFO   : 
+** INFO   : 
+** INFO   : Computation started  at: 11:57:19, 05-11-2019
+** INFO   : Computation finished at: 11:57:40, 05-11-2019
+** INFO   : 
+** INFO   : simulation period      (h)  :          2400.0000000000
+** INFO   : total time in timeloop (h)  :             0.0055713889
+** INFO   : MPI    : no.
+** INFO   : OpenMP : yes.         #threads max : 12
+** INFO   : 
+** INFO   : 
+** INFO   : 
+** INFO   : Opened file : DFM_OUTPUT_w1\w1_numlimdt.xyz
+** INFO   : Closed file : DFM_OUTPUT_w1\w1_numlimdt.xyz
+** INFO   : 
+** INFO   : Stop program
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_w1\w1_map.nc.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_w1\w1_his.nc.
+** DEBUG  : Closed NetCDF file '10x10km2_net.nc.
