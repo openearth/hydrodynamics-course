@@ -38,21 +38,21 @@ NB! After unzipping oss_artifacts_x64_65957.zip, navigate to `dflowfm\bin\` and 
 |-Workshop 2019 (all the files from 2019)
 |-Workshop 2020
 	|-1. Rivers
-			|-Exercises
-			|-Models
+		|-Exercises
+		|-Models
 	|-2. Weir
-			|-Exercises
-			|-Models
+		|-Exercises
+		|-Models
 	|-3. Groyne
-			|-Exercises
-			|-Models
+		|-Exercises
+		|-Models
 	|-4. Lakes
-			|-Exercises
-			|-Models
+		|-Exercises
+		|-Models
 	|-5. Channel
-			|-Exercises
-			|-Models
+		|-Exercises
+		|-Models
 	|-6. Estuary
-			|-Exercises
-			|-Models
+		|-Exercises
+		|-Models
 ```
