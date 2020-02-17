@@ -1,0 +1,9 @@
+[boundary]
+quantity=dischargebnd
+locationfile=right01.pli
+forcingfile=REALTIME
+
+[boundary]
+quantity=waterlevelbnd
+locationfile=left01.pli
+forcingfile=REALTIME
