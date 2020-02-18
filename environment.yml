@@ -14,3 +14,4 @@ dependencies:
   - jupyter
   - pip:
     - bmi-python==0.2.7
+    - mako

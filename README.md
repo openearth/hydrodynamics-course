@@ -6,7 +6,8 @@ This is the repository for exercises for the hydrodynamics course.
 * Ex1B - River Flood.ipynb :: working but exercise description needs to be completed
 * Ex5A & 5B :: not tested yet, missing model config files
 * Ex6 - Estuary.ipynb :: not finished testing, some paths in last cell of notebook not correct
-* update environment.yml with `pip install mako`
+* ~update environment.yml with `pip install mako`~
+* All Ex, generalise path to model files
 
 
 ## Installation instructions
@@ -34,7 +35,7 @@ NB! After unzipping oss_artifacts_x64_65957.zip, navigate to `dflowfm\bin\` and 
 ```
 |-environment.yml 
 |-README.md
-|-LICENS
+|-LICENSE
 |-Workshop 2019 (all the files from 2019)
 |-Workshop 2020
 	|-1. Rivers
