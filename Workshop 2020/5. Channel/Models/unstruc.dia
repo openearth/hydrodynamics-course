@@ -1,0 +1,8 @@
+** DEBUG  :            0  0.1000020      NOD(KMAX)
+** DEBUG  :            6  0.7000140      XK (KMAX), YK (KMAX), ZK (KMAX), KC (KMAX), NMK (KMAX), RNOD(KMAX)
+** DEBUG  :            7  0.1000020      NOD(KMAX)
+** DEBUG  :           12  0.7000140      XK (KMAX), YK (KMAX), ZK (KMAX), KC (KMAX), NMK (KMAX), RNOD(KMAX)
+** DEBUG  :           12  1.4400000E-03  xsp(maxspl, maxsplen)
+** DEBUG  :           12  1.4400000E-03  ysp(maxspl, maxsplen)
+** DEBUG  :           12  1.4400000E-03  xsp2(maxspl, maxsplen)
+** DEBUG  :           12  1.4400000E-03  ysp2(maxspl, maxsplen)

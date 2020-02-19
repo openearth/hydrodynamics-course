@@ -1,0 +1,19 @@
+** WARNING: readMDUFile: [geometry] uniformtyp1dstreetinlets=-2 was in file, but not used. Check possible typo.
+** WARNING: readMDUFile: [geometry] uniformtyp1droofgutterpipes=-2 was in file, but not used. Check possible typo.
+** INFO   : Initializing flow model geometry...
+** INFO   : setbedlevelfromextfile: Using bedlevel as specified in net-file.
+** INFO   : Done initializing flow model geometry.
+** INFO   : List of constituents defined in the model
+** INFO   :        1 temperature
+** INFO   : Start initializing external forcings...
+** INFO   : Done initializing external forcings.
+** INFO   : nogauss , nocg :            100             0
+** INFO   : Modelinit finished   at: 22:06:50, 19-03-2019
+** INFO   : ** Model initialization was successful **
+** INFO   : * Active Model definition:
+** INFO   : **
+** INFO   : Start of the computation time loop
+** INFO   : Writing initial output to file(s)...
+** INFO   : Done writing initial output to file(s).
+** INFO   :    Sim. time done   Sim. time left   Real time used   Real time left Steps left Complete% Interval-averaged time step
+** INFO   :           0d  0:02:00         59d 23:58:00          0d  0:00:00          0d  0:33:50      86398     0.0%     0.00000

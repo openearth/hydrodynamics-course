@@ -72,6 +72,8 @@ venv.bak/
 # data folders
 x64
 oss_artifacts_*
+dflowfmoutput
+DFM_OUTPUT_*
 
 # test files and folders
 test
