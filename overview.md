@@ -5,7 +5,7 @@ Here you can find an overview of the exercises that are part of the course, incl
 ## Day 1: Rivers
 
   - <b>Ex. 1: Channel flow</b>:
-    - 1.1 Equilibirum flow
+    - 1.1 Equilibrium flow
     - 1.2 Backwater curve
     - 1.3 Flood wave
   
