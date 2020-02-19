@@ -11,7 +11,7 @@ In 2020 the course will start on **7 April**
 * ~**Bjorn (by 21 Feb)**: Ex6 - Estuary.ipynb :: not finished testing, some paths in last cell of notebook not correct~
 * **Frank and Willem (by 21 Feb)**: Ex5A and 5B: check that the correct .mdu files are being used in the notebooks
 * **Bjorn and Fedor (by 28 Feb)**: port Ex1 - Rivers to cloud (consider VMWare Horizon Platform with MyDeltares SSO?)
-* **Frank and Willem (by 6 Mar)**: clone clean-up-repo branch, check that all notebooks and model config files are the most recent versions and remote redundant files
+* **Frank and Willem (by 6 Mar)**: clone clean-up-repo branch, check that all notebooks and model config files are the most recent versions and remove redundant files
 	- Also: decide is want to use Ex1B - River Flood.ipynb
 * **Wouter (by 13 Mar)**: clone repo and test that notebooks work as expected
 * **Cindy and Anna (by 19 Mar)**: Port all exercises to the cloud (consider VMWare Horizon Platform with MyDeltares SSO?)
