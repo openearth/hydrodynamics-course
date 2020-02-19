@@ -71,6 +71,7 @@ venv.bak/
 
 # data folders
 x64
+dflowfm_exe
 
 # test files and folders
 test
