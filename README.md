@@ -15,7 +15,7 @@ In 2020 the course will start on **7 April**
 	- Also: decide is want to use Ex1B - River Flood.ipynb
 * **Wouter (by 13 Mar)**: clone repo and test that notebooks work as expected
 * **Cindy and Anna (by 19 Mar)**: Port all exercises to the cloud (consider VMWare Horizon Platform with MyDeltares SSO?)
-* **All (on 20 Mar)**: Internal workshop to test exercises on Wouter, Joost and Edward
+* **All (on 20 Mar)**: Internal workshop to test exercises on Wouter, Joost and Edward (Bjorn to schedule workshop)
 * **All (by 3 Apr)**: Final adjustments and preparations before start of **PAOTM course on 7 Apr**
 
 ### Other to do's
