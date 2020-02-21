@@ -19,10 +19,10 @@ In 2020 the course will start on **7 April**
 [ ] **All (by 3 Apr)**: Final adjustments and preparations before start of **PAOTM course on 7 Apr**
 
 ### Other to do's
-* Once everything in Workshop 2020 works and is up to date, remove Workshop 2019 and move all folders to same level as README.md
-* arrange laptops for course?
-* check if tidal constituents can be set through BMI, instead of using mako package (Ex6)
-* generate install script for running on VM
+[ ] Once everything in Workshop 2020 works and is up to date, remove Workshop 2019 and move all folders to same level as README.md
+[ ] arrange laptops for course?
+[ ] check if tidal constituents can be set through BMI, instead of using mako package (Ex6)
+[ ] generate install script for running on VM
 
 ## Dependencies
 * Chrome
