@@ -5,18 +5,18 @@ This is the repository for exercises for the hydrodynamics course.
 In 2020 the course will start on **7 April**
 
 ## To do's (and deadlines)
-[] **Bjorn (by 21 Feb)**: For all Ex, generalise path to model files (dflowfm folder on repo)
-[] **Bjorn (by 21 Feb)**: Ex5A & 5B :: not tested yet, missing model config files~
-		[]could be cursus_2019\2. Lakes and Reservoirs\2.6. Demos and Exercises\Exercises\day2\models\Channel_new
-[] **Bjorn (by 21 Feb)**: Ex6 - Estuary.ipynb :: not finished testing, some paths in last cell of notebook not correct
-[] **Frank and Willem (by 21 Feb)**: Ex5A and 5B: check that the correct .mdu files are being used in the notebooks
-[] **Bjorn and Fedor (by 28 Feb)**: port Ex1 - Rivers to cloud (consider VMWare Horizon Platform with MyDeltares SSO?)
-[] **Frank and Willem (by 6 Mar)**: clone clean-up-repo branch, check that all notebooks and model config files are the most recent versions and remove redundant files
-		[] Also: decide is want to use Ex1B - River Flood.ipynb
-[] **Wouter (by 13 Mar)**: clone repo and test that notebooks work as expected
-[] **Cindy and Anna (by 19 Mar)**: Port all exercises to the cloud (consider VMWare Horizon Platform with MyDeltares SSO?)
-[] **All (on 20 Mar)**: Internal workshop to test exercises on Wouter, Joost and Edward (Bjorn to schedule workshop)
-[] **All (by 3 Apr)**: Final adjustments and preparations before start of **PAOTM course on 7 Apr**
+[ ] **Bjorn (by 21 Feb)**: For all Ex, generalise path to model files (dflowfm folder on repo)
+[ ] **Bjorn (by 21 Feb)**: Ex5A & 5B :: not tested yet, missing model config files~
+		[ ]could be cursus_2019\2. Lakes and Reservoirs\2.6. Demos and Exercises\Exercises\day2\models\Channel_new
+[ ] **Bjorn (by 21 Feb)**: Ex6 - Estuary.ipynb :: not finished testing, some paths in last cell of notebook not correct
+[ ] **Frank and Willem (by 21 Feb)**: Ex5A and 5B: check that the correct .mdu files are being used in the notebooks
+[ ] **Bjorn and Fedor (by 28 Feb)**: port Ex1 - Rivers to cloud (consider VMWare Horizon Platform with MyDeltares SSO?)
+[ ] **Frank and Willem (by 6 Mar)**: clone clean-up-repo branch, check that all notebooks and model config files are the most recent versions and remove redundant files
+		[ ] Also: decide is want to use Ex1B - River Flood.ipynb
+[ ] **Wouter (by 13 Mar)**: clone repo and test that notebooks work as expected
+[ ] **Cindy and Anna (by 19 Mar)**: Port all exercises to the cloud (consider VMWare Horizon Platform with MyDeltares SSO?)
+[ ] **All (on 20 Mar)**: Internal workshop to test exercises on Wouter, Joost and Edward (Bjorn to schedule workshop)
+[ ] **All (by 3 Apr)**: Final adjustments and preparations before start of **PAOTM course on 7 Apr**
 
 ### Other to do's
 * Once everything in Workshop 2020 works and is up to date, remove Workshop 2019 and move all folders to same level as README.md
