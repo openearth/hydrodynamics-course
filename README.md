@@ -9,16 +9,21 @@ In 2020 the course will start on **7 April**
 - [x] **Bjorn (by 21 Feb)**: Ex5A & 5B :: test, missing model config files could be in cursus_2019\2. Lakes and Reservoirs\2.6. Demos and Exercises\Exercises\day2\models\Channel_new
 - [x] **Bjorn (by 21 Feb)**: Ex6 - Estuary.ipynb :: finish testing, fix paths in last cell of notebook which were not correct
 - [ ] **Frank and Willem (by 21 Feb)**: Ex5A and 5B: check that the correct .mdu files are being used in the notebooks
-- [ ] **Bjorn and Fedor (by 28 Feb)**: port Ex1 - Rivers to cloud (consider VMWare Horizon Platform with MyDeltares SSO?)
+- [ ] **Fine and Fedor with Cindy (by 28 Feb)**: remove Workshop 2019 folder and move all folders in Workshop 2020 to same level as README.md, and merge Clean-up-repo branch with master
+- [ ] **Fine (by 2 Mar)**: test notebooks on linux
+- [ ] **Fine and Fedor (by 3 Mar)**: clone repo to Azure and test Ex1 - Rivers and add work around to get dflowfm executable onto Azure (use Azure / Amazon bucket) and add azure_environment.yml and add to Azure VM
 - [ ] **Frank and Willem (by 6 Mar)**: clone clean-up-repo branch, check that all notebooks and model config files are the most recent versions and remove redundant files
-- [ ] **Frank and Willem (by 6 Mar)**: decide is want to use Ex1B - River Flood.ipynb
+- [ ] **Frank and Willem (by 6 Mar)**: decide if want to use Ex1B - River Flood.ipynb
 - [ ] **Wouter (by 13 Mar)**: clone repo and test that notebooks work as expected
-- [ ] **Cindy and Anna (by 19 Mar)**: Port all exercises to the cloud (consider VMWare Horizon Platform with MyDeltares SSO?)
+- [ ] **Fedor (by 20 Mar)**: set up additional users with different environments on Azure JupyterHub
+- [ ] **Cindy and Anna (by 19 Mar)**: Port all exercises to the cloud (Azure)
+- [ ] **All (by 19 Mar)**: test connection a few time, stop-start etc see how long it takes - communicate start up time to lecturer
+- [ ] **All (19 MAr)**: update README.md to include instructions for running on Azure
 - [ ] **All (on 20 Mar)**: Internal workshop to test exercises on Wouter, Joost and Edward (Bjorn to schedule workshop)
 - [ ] **All (by 3 Apr)**: Final adjustments and preparations before start of **PAOTM course on 7 Apr**- 
 
 ### Other to do's
-- [ ] Once everything in Workshop 2020 works and is up to date, remove Workshop 2019 and move all folders to same level as README.md
+
 - [ ] arrange laptops for course?
 - [ ] check if tidal constituents can be set through BMI, instead of using mako package (Ex6)
 - [ ] generate install script for running on VM
