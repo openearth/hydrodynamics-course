@@ -15,12 +15,12 @@ In 2020 the course will start on **7 April**
 - [ ] **Frank and Willem (by 6 Mar)**: clone clean-up-repo branch, check that all notebooks and model config files are the most recent versions and remove redundant files
 - [ ] **Frank and Willem (by 6 Mar)**: decide if want to use Ex1B - River Flood.ipynb
 - [ ] **Wouter (by 13 Mar)**: clone repo and test that notebooks work as expected
-- [ ] **Fedor (by 20 Mar)**: set up additional users with different environments on Azure JupyterHub
-- [ ] **Cindy and Anna (by 19 Mar)**: Port all exercises to the cloud (Azure)
-- [ ] **All (by 19 Mar)**: test connection a few time, stop-start etc see how long it takes - communicate start up time to lecturer
-- [ ] **All (19 MAr)**: update README.md to include instructions for running on Azure
-- [ ] **All (on 20 Mar)**: Internal workshop to test exercises on Wouter, Joost and Edward (Bjorn to schedule workshop)
-- [ ] **All (by 3 Apr)**: Final adjustments and preparations before start of **PAOTM course on 7 Apr**- 
+- [ ] **Fedor (by 19 Mar)**: set up additional users with different environments on Azure JupyterHub
+- [ ] **Fedor, Fine, Cindy and Anna (by 18 Mar)**: Port all exercises to the cloud (Azure)
+- [ ] **All (by 18 Mar)**: test connection a few time, stop-start etc see how long it takes - communicate start up time to lecturer
+- [ ] **All (18 MAr)**: update README.md to include instructions for running on Azure
+- [ ] **All (on 19 Mar)**: Internal workshop to test exercises on Wouter, Joost and Edward (Bjorn to schedule workshop)
+- [ ] **All (by 3 Apr)**: Final adjustments and preparations before start of **PAOTM course on 7 Apr**
 
 ### Other to do's
 
