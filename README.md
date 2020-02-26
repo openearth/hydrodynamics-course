@@ -27,6 +27,7 @@ In 2020 the course will start on **7 April**
 - [ ] arrange laptops for course?
 - [ ] check if tidal constituents can be set through BMI, instead of using mako package (Ex6)
 - [ ] generate install script for running on VM
+- [ ] **Bjorn**: check if we can use notebooks.egi.eu
 
 ## Dependencies
 * Chrome
