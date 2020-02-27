@@ -50,7 +50,8 @@ Then do
 You will also need to have _access to_ and download the latest D-Flow Flexible Mesh model executable from Deltares' build server:
 https://build.deltares.nl/repository/download/Delft3DSobek_OssBuilds_BuildFmWin64vs2015if16/1264528:id/oss_artifacts_x64_65957.zip   
 
-NB! After downloading _oss_artifacts_x64_65957.zip_, unzip it in `dflowfm_exe`, then navigate to `dflowfm_exe\oss_artifacts_x64_65957\x64\dflowfm\bin\` and copy all files in that directory to `dflowfm_exe\oss_artifacts_x64_65957\x64\share\bin\`.
+NB! After downloading _oss_artifacts_x64_65957.zip_, unzip it in `dflowfm_exe`, then navigate to `dflowfm_exe\oss_artifacts_x64_65957\x64\dflowfm\bin\` 
+and copy all files in that directory to `dflowfm_exe\oss_artifacts_x64_65957\x64\share\bin\`.
 
 ## Running on the cloud
 ...
