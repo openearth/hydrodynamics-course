@@ -1,0 +1,5 @@
+QUANTITY=initialverticaltemperatureprofile
+FILENAME=inivert.pli
+FILETYPE=9
+METHOD=1
+OPERAND=O

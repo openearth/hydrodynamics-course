@@ -1,0 +1,10 @@
+[boundary]
+QUANTITY=dischargebnd
+locationfile=weir_left_Q-H.pli
+forcingfile=REALTIME
+
+[boundary]
+QUANTITY=waterlevelbnd
+locationfile=weir_right.pli
+forcingfile=REALTIME
+

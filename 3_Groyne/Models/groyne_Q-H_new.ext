@@ -1,0 +1,10 @@
+[boundary]
+quantity=dischargebnd
+locationfile=groyne_left_Q-H.pli
+forcingfile=REALTIME
+
+[boundary]
+quantity=waterlevelbnd
+locationfile=groyne_right.pli
+forcingfile=REALTIME
+
