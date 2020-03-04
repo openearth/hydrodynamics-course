@@ -1,0 +1,14 @@
+Remarks Wouter dd 4/3
+Exercise 5
+- Name: change name in github to Lake_stratified
+- Name in text: wind-effects on a stratified lake
+- add at end of introduction: the wind drag coefficient cd is again 2E-4.
+
+Exercise 5(a):
+- BMI thing: next to wind speed, we need widgets and BMI change options for temperature and layer thicknesses. Probably not simple, but very instructive wrt physics.
+- plotting: enlarge vertical scale of plot
+- plotting: have a critical look to plotting and try to improve further
+- NB: (Relevant for CINDY?) Jelmer Veenstra's plotting library (though set-up for plotting from netcdf) might provide helpful stuff also for plotting directly from BMI. Maybe using info on grid structure / node connectivity from a 'full' simulation.
+
+GENERAL:
+- once simulations are working, let's make wind fricton formulations the same in all simulations. Let's use cd = 2E-4, like in theoretical exploration in exercise

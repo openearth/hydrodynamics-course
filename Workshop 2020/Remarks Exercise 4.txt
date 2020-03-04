@@ -1,0 +1,34 @@
+Opmerkingen PAOTM opgaven 2020 (4/3)
+
+GENERAL
+- used versions of d-flow input files seem OK. 
+- NB: difference between versions of exercises in old folders is the way in which the wind is prescriped (either via ext-file or ext-keyword). The refered simulation seems OK, but if you experience problems, maybe this gives a clue.
+- (unclear whether 'FILENAME =REALTIME' is needed in .ext file)
+
+Exercise 4:
+- make name in github: Lake
+
+Exercise 4(a):
+- mention rho_w = 1000 kg/m^3
+- put cd value in excercise on cd = 2E-3
+- put h value in excercise and simulation on 3 m
+- ^3 symbols not so nice in notebook (might be just the preview here)
+- Default wind speed U10(in x-direction) = 15 m/s (=beaufort 7)
+- We need to add option to change depth (or water level)
+- NB: D-FM simulation has wind speed dependent cd surface
+
+
+Exercise 4(b):
+- make depth of lake (3m) and wind speed (15 m/s) consistent with (adaptations in) exercise 4a
+- change depth of channel to 7.5 m
+- unit of rho_w = kg/m^3
+- ^3 symbols not so nice in notebook
+
+Exercise 4(c):
+- make depth of lake (3m) and wind speed (15 m/s) consistent with (adaptations in) exercise 4a
+- axis label x-axis graph bottom left might be wrong. Shouldnt this be X [m]?
+- add possibility to change depth also to 3D simulation
+- add possibility to change bottom friction cf (range 1E-4 to 1E-2)
+
+Exercise 4(d):
+- make depth of lake (3m), depth of gully (7.5 m) and wind speed (15 m/s) consistent with (adaptations in) exercise 4b
