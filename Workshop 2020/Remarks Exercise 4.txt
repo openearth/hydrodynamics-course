@@ -1,4 +1,4 @@
-Opmerkingen PAOTM opgaven 2020 (4/3)
+Opmerkingen van Wouter Kranenburg voor PAOTM opgave 4 2020 (4/3)
 
 GENERAL
 - used versions of d-flow input files seem OK. 
