@@ -21,7 +21,8 @@ In 2020 the course will start on **7 April**
 - [ ] **Fedor, Fine, Cindy and Anna (by 18 Mar)**: Port all exercises to the cloud (Azure)
 - [ ] **All (by 18 Mar)**: test connection a few time, stop-start etc see how long it takes - communicate start up time to lecturer
 - [ ] **All (18 MAr)**: update README.md to include instructions for running on Azure
-- [ ] **All (on 19 Mar)**: Internal workshop to test exercises on Wouter, Joost and Edward (Bjorn to schedule workshop)
+- [ ] **All (on 19 Mar)**: Internal workshop to test exercises
+- [ ] **All (on 24 Mar)**: Major test exercises on Wouter, Joost and Edward
 - [ ] **All (by 3 Apr)**: Final adjustments and preparations before start of **PAOTM course on 7 Apr**
 
 ### Other to do's
