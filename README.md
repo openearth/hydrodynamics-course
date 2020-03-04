@@ -8,7 +8,7 @@ In 2020 the course will start on **7 April**
 - [x] **Bjorn (by 21 Feb)**: For all Ex, generalise path to model files (dflowfm folder on repo)
 - [x] **Bjorn (by 21 Feb)**: Ex5A & 5B :: test, missing model config files could be in cursus_2019\2. Lakes and Reservoirs\2.6. Demos and Exercises\Exercises\day2\models\Channel_new
 - [x] **Bjorn (by 21 Feb)**: Ex6 - Estuary.ipynb :: finish testing, fix paths in last cell of notebook which were not correct
-- [ ] **Frank and Willem (by 21 Feb)**: Ex5A and 5B: check that the correct .mdu files are being used in the notebooks
+- [x] **Frank and Willem (by 21 Feb)**: Ex5A and 5B: check that the correct .mdu files are being used in the notebooks. 
 - [ ] **Fine and Fedor with Cindy (by 28 Feb)**: remove Workshop 2019 folder and move all folders in Workshop 2020 to same level as README.md, and merge Clean-up-repo branch with master
 - [ ] **Fine (by 2 Mar)**: test notebooks on linux
 - [ ] **Fine and Fedor (by 3 Mar)**: clone repo to Azure and test Ex1 - Rivers and add work around to get dflowfm executable onto Azure (use Azure / Amazon bucket) and add azure_environment.yml and add to Azure VM
