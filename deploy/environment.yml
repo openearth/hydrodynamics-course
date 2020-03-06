@@ -24,6 +24,6 @@ dependencies:
   - matplotlib
   # Pip specific stuff
   - pip:
-    - bmi-python==0.2.7
+    - bmi-python
     - docopt==0.6.1
     - mako==1.1.1

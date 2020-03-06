@@ -22,8 +22,6 @@ RUN echo "source activate course" > ~/.bashrc
 ENV PATH /opt/conda/envs/course/bin:$PATH
 ENV CONDA_DEFAULT_ENV course
 
-# Configure jupyterhub
-COPY jupyterhub /etc/jupyterhub
 # Create default python environment
 RUN /opt/conda/envs/course/bin/python -m ipykernel install --name 'python' --display-name "Python (default)"
 RUN mkdir -p /srv/jupyterhub
@@ -57,6 +55,9 @@ VOLUME /data
 
 # Share and extract model code from here
 ADD /models/dimrset_lnx64_370.tar.gz /models
+
+# Configure jupyterhub
+ADD jupyterhub /etc/jupyterhub
 
 # Export model file path to memory
 ENV LD_LIBRARY_PATH=/models/lnx64/lib
