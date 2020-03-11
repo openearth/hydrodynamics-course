@@ -1,0 +1,29 @@
+name: course
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - setuptools
+  - pip
+  - wheel
+  # Jupyter/Ipython
+  - ipython
+  - ipykernel
+  - jupyter
+  - notebook
+  - jupyterlab
+  - ipywidgets
+  - jupyterhub
+  - sudospawner
+  # Science
+  - numpy
+  - pandas
+  - xarray
+  - netCDF4
+  - matplotlib
+  # Pip specific stuff
+  - pip:
+    - bmi-python
+    - docopt==0.6.1
+    - mako==1.1.1

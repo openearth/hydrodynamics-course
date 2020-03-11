@@ -8,9 +8,9 @@ In 2020 the course will start on **7 April**
 - [x] **Bjorn (by 21 Feb)**: For all Ex, generalise path to model files (dflowfm folder on repo)
 - [x] **Bjorn (by 21 Feb)**: Ex5A & 5B :: test, missing model config files could be in cursus_2019\2. Lakes and Reservoirs\2.6. Demos and Exercises\Exercises\day2\models\Channel_new
 - [x] **Bjorn (by 21 Feb)**: Ex6 - Estuary.ipynb :: finish testing, fix paths in last cell of notebook which were not correct
-- [x] **Frank and Willem (by 21 Feb)**: Ex5A and 5B: check that the correct .mdu files are being used in the notebooks. 
-- [x] **Frank and Wouter (by 27 Feb)**: Ex4 and 5: check consistency of notebooks and model input. Make wishlist for improvements. 
-- [ ] **Fine and Fedor with Cindy (by 28 Feb)**: remove Workshop 2019 folder and move all folders in Workshop 2020 to same level as README.md, and merge Clean-up-repo branch with master
+- [x] **Frank and Willem (by 21 Feb)**: Ex5A and 5B: check that the correct .mdu files are being used in the notebooks.
+- [x] **Frank and Wouter (by 27 Feb)**: Ex4 and 5: check consistency of notebooks and model input. Make wishlist for improvements.
+- [x] **Fine and Fedor with Cindy (by 28 Feb)**: remove Workshop 2019 folder and move all folders in Workshop 2020 to same level as README.md, and merge Clean-up-repo branch with master
 - [ ] **Fine (by 2 Mar)**: test notebooks on linux
 - [ ] **Fine and Fedor (by 3 Mar)**: clone repo to Azure and test Ex1 - Rivers and add work around to get dflowfm executable onto Azure (use Azure / Amazon bucket) and add azure_environment.yml and add to Azure VM
 - [ ] **Frank and Willem (by 6 Mar)**: clone clean-up-repo branch, check that all notebooks and model config files are the most recent versions and remove redundant files
@@ -45,7 +45,7 @@ After installing Anaconda, launch `Anaconda Prompt` and navigate to the director
 Then do
 ```
 > git clone https://github.com/openearth/hydrodynamics-course-binder.git
-> conda env create -f environment.yml 
+> conda env create -f environment.yml
 > conda activate paotm-2020
 > jupyter notebook
 ```
@@ -53,14 +53,15 @@ Then do
 You will also need to have _access to_ and download the latest D-Flow Flexible Mesh model executable from Deltares' build server:
 https://build.deltares.nl/repository/download/Delft3DSobek_OssBuilds_BuildFmWin64vs2015if16/1264528:id/oss_artifacts_x64_65957.zip   
 
-NB! After downloading _oss_artifacts_x64_65957.zip_, unzip it in `dflowfm_exe`, then navigate to `dflowfm_exe\oss_artifacts_x64_65957\x64\dflowfm\bin\` and copy all files in that directory to `dflowfm_exe\oss_artifacts_x64_65957\x64\share\bin\`.
+NB! After downloading _oss_artifacts_x64_65957.zip_, unzip it in `dflowfm_exe`, then navigate to `dflowfm_exe\oss_artifacts_x64_65957\x64\dflowfm\bin\`
+and copy all files in that directory to `dflowfm_exe\oss_artifacts_x64_65957\x64\share\bin\`.
 
 ## Running on the cloud
 ...
 
 ## Directory tree
 ```
-|-environment.yml 
+|-environment.yml
 |-README.md
 |-LICENSE
 |-Workshop 2019 (all the files from 2019)
