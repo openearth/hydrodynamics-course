@@ -66,7 +66,6 @@ and copy all files in that directory to `dflowfm_exe\x64\share\bin\`.
 ```
 |-README.md
 |-LICENSE
-|-Workshop 2019 (all the files from 2019)
 |-1. Rivers
 	|-Exercises
 	|-Models
