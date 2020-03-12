@@ -45,8 +45,10 @@ After installing Anaconda, launch `Anaconda Prompt` and navigate to the director
 Then do
 ```
 > git clone https://github.com/openearth/hydrodynamics-course-binder.git
+> cd hydrodynamics-course/deploy
 > conda env create -f environment.yml
 > conda activate course
+> cd ..
 > jupyter notebook
 ```
 
@@ -54,8 +56,8 @@ You will also need to have _access to_ and download the latest D-Flow Flexible M
 https://build.deltares.nl/viewLog.html?buildTypeId=Delft3DSobek_OssBuilds_BuildFmWin64vs2015if16&buildId=lastSuccessful&tab=artifacts
 You should select the zip file starting with `oss_artifacts_x64` e.g. `oss_artifacts_x64_65957.zip`
 
-NB! After downloading _oss_artifacts_x64_65957.zip_, unzip it in `dflowfm_exe`, then navigate to `dflowfm_exe\oss_artifacts_x64_65957\x64\dflowfm\bin\`
-and copy all files in that directory to `dflowfm_exe\oss_artifacts_x64_65957\x64\share\bin\`.
+NB! After downloading _oss_artifacts_x64_65957.zip_, unzip it in `dflowfm_exe`, then navigate to `dflowfm_exe\x64\dflowfm\bin\`
+and copy all files in that directory to `dflowfm_exe\x64\share\bin\`.
 
 ## Running on the cloud
 ...
