@@ -14,6 +14,13 @@ In 2020 the course will start on **7 April**
 - [ ] **Fine (by 2 Mar)**: test notebooks on linux
 - [ ] **Fine and Fedor (by 3 Mar)**: clone repo to Azure and test Ex1 - Rivers and add work around to get dflowfm executable onto Azure (use Azure / Amazon bucket) and add azure_environment.yml and add to Azure VM
 - [ ] **Frank and Willem (by 6 Mar)**: clone clean-up-repo branch, check that all notebooks and model config files are the most recent versions and remove redundant files
+	-	[x] Exercise 1A - Exercise runs and files are cleaned up   
+			Minor: -get RuntimeWarning  ... appdata\local\continuum\anaconda3\envs\paotm3.7\lib\site-packages\numpy\ctypeslib.py:436: RuntimeWarning: Invalid PEP 3118 format string: '<P'
+  return array(obj, copy=False)
+	-	[ ] Exercise 1B - At startup: Value (Roughness Chézy) has been set to: 2500.0 is given. This is a very high value for the roughness.
+			New schematisation made, but exercise appears broken at the moment. **Check setting through slice of zbndz**
+	-	[ ] Exercise 2 -
+	-	[ ] Exercise 3 -
 - [ ] **Frank and Willem (by 6 Mar)**: decide if want to use Ex1B - River Flood.ipynb
 - [ ] **Cindy (by 12 Mar)**: Incorporate Wouter's wishlist for improvements for exercise 4 and 5 (Workshop 2020/Remarks Exercise 4.txt and Remarks Exercise 5.txt).
 - [ ] **Wouter (by 13 Mar)**: clone repo and test that notebooks work as expected
@@ -90,5 +97,5 @@ and copy all files in that directory to `dflowfm_exe\x64\share\bin\`.
 	|-environment.yml
 	|-jupyterhub
 		|-jupyterhub.service
-        |-jupyterhub_config.py 
+        |-jupyterhub_config.py
 ```
