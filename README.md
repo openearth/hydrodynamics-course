@@ -46,12 +46,13 @@ Then do
 ```
 > git clone https://github.com/openearth/hydrodynamics-course-binder.git
 > conda env create -f environment.yml
-> conda activate paotm-2020
+> conda activate course
 > jupyter notebook
 ```
 
 You will also need to have _access to_ and download the latest D-Flow Flexible Mesh model executable from Deltares' build server:
-https://build.deltares.nl/repository/download/Delft3DSobek_OssBuilds_BuildFmWin64vs2015if16/1264528:id/oss_artifacts_x64_65957.zip   
+https://build.deltares.nl/viewLog.html?buildTypeId=Delft3DSobek_OssBuilds_BuildFmWin64vs2015if16&buildId=lastSuccessful&tab=artifacts
+You should select the zip file starting with `oss_artifacts_x64` e.g. `oss_artifacts_x64_65957.zip`
 
 NB! After downloading _oss_artifacts_x64_65957.zip_, unzip it in `dflowfm_exe`, then navigate to `dflowfm_exe\oss_artifacts_x64_65957\x64\dflowfm\bin\`
 and copy all files in that directory to `dflowfm_exe\oss_artifacts_x64_65957\x64\share\bin\`.
@@ -61,28 +62,32 @@ and copy all files in that directory to `dflowfm_exe\oss_artifacts_x64_65957\x64
 
 ## Directory tree
 ```
-|-environment.yml
 |-README.md
 |-LICENSE
 |-Workshop 2019 (all the files from 2019)
-|-Workshop 2020
-	|-1. Rivers
-		|-Exercises
-		|-Models
-	|-2. Weir
-		|-Exercises
-		|-Models
-	|-3. Groyne
-		|-Exercises
-		|-Models
-	|-4. Lakes
-		|-Exercises
-		|-Models
-	|-5. Channel
-		|-Exercises
-		|-Models
-	|-6. Estuary
-		|-Exercises
-		|-Models
-	|-dflowfm_exe (this is where the dflowfm executable should be)
+|-1. Rivers
+	|-Exercises
+	|-Models
+|-2. Weir
+	|-Exercises
+	|-Models
+|-3. Groyne
+	|-Exercises
+	|-Models
+|-4. Lakes
+	|-Exercises
+	|-Models
+|-5. Channel
+	|-Exercises
+	|-Models
+|-6. Estuary
+	|-Exercises
+	|-Models
+|-dflowfm_exe (this is where the dflowfm executable should be)
+|-deploy
+	|-Dockerfile
+	|-environment.yml
+	|-jupyterhub
+		|-jupyterhub.service
+        |-jupyterhub_config.py 
 ```
