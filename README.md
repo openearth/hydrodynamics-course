@@ -22,7 +22,11 @@ In 2020 the course will start on **7 April**
 	-	[x] Exercise 2 - Runs, model files are cleaned up
 			At startup: RuntimeWarning given for division by zero. Caused by unset waterlevel boundary at initialisation, when set by user runs as before.
 			Minor: same RuntimeWarning as for Ex1A given.
-	-	[ ] Exercise 3 -
+	-	[ ] Exercise 3 - Runs. Split this exercise in two parts, upstream waterlevel / upstream discharge ?
+			- [ ] Step 3a) mentions to set the upstream waterlevel, but you can only set the upstream discharge - should we  
+			- [ ] Step 3b) also depends on upstream waterlevel
+			- [x] Step 3c) also depends on upstream discharge which can be set.
+
 - [ ] **Frank and Willem (by 6 Mar)**: decide if want to use Ex1B - River Flood.ipynb
 - [ ] **Cindy (by 12 Mar)**: Incorporate Wouter's wishlist for improvements for exercise 4 and 5 (Workshop 2020/Remarks Exercise 4.txt and Remarks Exercise 5.txt).
 - [ ] **Wouter (by 13 Mar)**: clone repo and test that notebooks work as expected
