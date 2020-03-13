@@ -19,7 +19,9 @@ In 2020 the course will start on **7 April**
   return array(obj, copy=False)
 	-	[ ] Exercise 1B - At startup: Value (Roughness Chézy) has been set to: 2500.0 is given. This is a very high value for the roughness.
 			New schematisation made, but exercise appears broken at the moment. **Check setting through slice of zbndz**
-	-	[ ] Exercise 2 -
+	-	[x] Exercise 2 - Runs, model files are cleaned up
+			At startup: RuntimeWarning given for division by zero. Caused by unset waterlevel boundary at initialisation, when set by user runs as before.
+			Minor: same RuntimeWarning as for Ex1A given.
 	-	[ ] Exercise 3 -
 - [ ] **Frank and Willem (by 6 Mar)**: decide if want to use Ex1B - River Flood.ipynb
 - [ ] **Cindy (by 12 Mar)**: Incorporate Wouter's wishlist for improvements for exercise 4 and 5 (Workshop 2020/Remarks Exercise 4.txt and Remarks Exercise 5.txt).
