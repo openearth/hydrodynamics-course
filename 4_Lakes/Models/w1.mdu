@@ -49,7 +49,7 @@ AngLon                      = 0.                  # Angle of longitude E-W (deg)
 Conveyance2D                = 1                   # -1: R=HU,0: R=H, 1: R=A/P, 2: K=analytic-1D conv, 3: K=analytic-2D conv
 Slotw2D                     = 0.                  # (m)
 
-[numerics]
+[numerics]-
 CFLMax                      = 0.7                 # Maximum Courant number
 AdvecType                   = 33                  # Advection type (0: none, 1: Wenneker, 2: Wenneker q(uio-u), 3: Perot q(uio-u), 4: Perot q(ui-u), 5: Perot q(ui-u) without itself)
 TimeStepType                = 2                   # Time step handling (0: only transport, 1: transport + velocity update, 2: full implicit step-reduce, 3: step-Jacobi, 4: explicit)
@@ -72,10 +72,10 @@ jaupwindsrc                 = 1                   # 1st-order upwind advection a
 jasfer3D                    = 0                   # corrections for spherical coordinates
 
 [physics]
-UnifFrictCoef               = 2.3d-2              # Uniform friction coefficient (0: no friction)
-UnifFrictType               = 1                   # Uniform friction type (0: Chezy, 1: Manning, 2: White-Colebrook, 3: idem, WAQUA style)
-UnifFrictCoef1D             = 2.3d-2              # Uniform friction coefficient in 1D links (0: no friction)
-UnifFrictCoef1D2D           = 2.3d-2              # Uniform friction coefficient in 1D links (0: no friction)
+UnifFrictCoef               = 70                  # Uniform friction coefficient (0: no friction)
+UnifFrictType               = 0                   # Uniform friction type (0: Chezy, 1: Manning, 2: White-Colebrook, 3: idem, WAQUA style)
+UnifFrictCoef1D             = 70                  # Uniform friction coefficient in 1D links (0: no friction)
+UnifFrictCoef1D2D           = 70                  # Uniform friction coefficient in 1D links (0: no friction)
 UnifFrictCoefLin            = 0.                  # Uniform linear friction coefficient (0: no friction)
 UnifFrictCoef1DgrLay        = 5.d-2               # Uniform ground layer friction coefficient for ocean models (m/s) (0: no friction)
 Vicouv                      = 1.                  # Uniform horizontal eddy viscosity (m2/s)
