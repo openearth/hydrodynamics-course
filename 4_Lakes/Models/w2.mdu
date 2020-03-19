@@ -72,10 +72,10 @@ jaupwindsrc                 = 1                   # 1st-order upwind advection a
 jasfer3D                    = 0                   # corrections for spherical coordinates
 
 [physics]
-UnifFrictCoef               = 2.3d-2              # Uniform friction coefficient (0: no friction)
-UnifFrictType               = 1                   # Uniform friction type (0: Chezy, 1: Manning, 2: White-Colebrook, 3: idem, WAQUA style)
-UnifFrictCoef1D             = 2.3d-2              # Uniform friction coefficient in 1D links (0: no friction)
-UnifFrictCoef1D2D           = 2.3d-2              # Uniform friction coefficient in 1D links (0: no friction)
+UnifFrictCoef               = 50                  # Uniform friction coefficient (0: no friction)
+UnifFrictType               = 0                   # Uniform friction type (0: Chezy, 1: Manning, 2: White-Colebrook, 3: idem, WAQUA style)
+UnifFrictCoef1D             = 50                  # Uniform friction coefficient in 1D links (0: no friction)
+UnifFrictCoef1D2D           = 50                  # Uniform friction coefficient in 1D links (0: no friction)
 UnifFrictCoefLin            = 0.                  # Uniform linear friction coefficient (0: no friction)
 UnifFrictCoef1DgrLay        = 5.d-2               # Uniform ground layer friction coefficient for ocean models (m/s) (0: no friction)
 Vicouv                      = 1.                  # Uniform horizontal eddy viscosity (m2/s)
@@ -98,7 +98,7 @@ SecondaryFlow               = 0                   # Secondary flow (0: no, 1: ye
 
 [wind]
 ICdtyp                      = 2                   # Wind drag coefficient type (1=Const; 2=Smith&Banke (2 pts); 3=S&B (3 pts); 4=Charnock 1955, 5=Hwang 2005, 6=Wuest 2005, 7=Hersbach 2010 (2 pts)
-Cdbreakpoints               = 6.3d-4 7.23d-3      # Wind drag coefficient break points
+Cdbreakpoints               = 2.d-3 2.d-3         # Wind drag coefficient break points
 Windspeedbreakpoints        = 0. 100.             # Wind speed break points (m/s)
 Relativewind                = 0                   # Wind speed relative to top-layer water speed, 1=yes, 0 = no)
 Rhoair                      = 1.2                 # Air density (kg/m3)
