@@ -134,7 +134,7 @@ RestartFile                 =                     # Restart netcdf-file, either 
 RestartDateTime             = yyyymmddhhmmss      # Restart date and time (yyyymmddhhmmss) when restarting from *_map.nc
 
 [external forcing]
-ExtForceFile                = w1.ext              # Old format for external forcings file *.ext, link with tim/cmp-format boundary conditions specification
+ExtForceFile                = w2.ext              # Old format for external forcings file *.ext, link with tim/cmp-format boundary conditions specification
 ExtForceFileNew             =                     # New format for external forcings file *.ext, link with bc-format boundary conditions specification
 
 [output]

@@ -9,18 +9,3 @@ FILENAME =windydir.wnd
 FILETYPE =1
 METHOD   =1
 OPERAND  =O
-
-QUANTITY =bedlevel
-FILENAME =all.pol 
-FILETYPE =10
-METHOD   =4
-OPERAND  =O
-VALUE    =-3
-
-QUANTITY =bedlevel
-FILENAME =rec.pol 
-FILETYPE =10
-METHOD   =4
-OPERAND  =O
-VALUE    =-7.5
-
