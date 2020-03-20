@@ -1,3 +1,3 @@
 engine = "dflowfm"
-mdufile = "/home/jovyan/notebooks/4_Lakes/Models/w1.mdu"
-inivertpath = "/home/jovyan/notebooks/4_Lakes/Models/"
+mdufile = "/home/jovyan/notebooks/5_Channel/Models/t2.mdu"
+inivertpath = "/home/jovyan/notebooks/5_Channel/Models/"
