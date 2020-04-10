@@ -1,0 +1,37 @@
+proxy:
+  secretToken: ""
+auth:
+  type: dummy
+  dummy:
+    password: ''
+  whitelist:
+    users:
+      - user1
+      - user2
+      - user3
+      - user4
+      - user5
+      - user6
+      - user7
+      - user8
+      - user9
+      - user10
+  admin:
+    users:
+      - admin
+singleuser:
+  lifecycleHooks:
+    postStart:
+      exec:
+        command: ["gitpuller", "https://github.com/openearth/hydrodynamics-course.git", "master", "notebooks"]
+  storage:
+    type: none
+  image:
+    name: paotmcontainers.azurecr.io/hydrodynamicscourse
+    tag: v4
+  memory:
+    limit: 4G
+    guarantee: 4G
+  cpu:
+    limit: 1.5
+    guarantee: 1.5
