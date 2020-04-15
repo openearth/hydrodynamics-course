@@ -1,24 +1,25 @@
 proxy:
   secretToken: ""
+hub:
+  extraEnv:
+    OAUTH2_AUTHORIZE_URL: https://${host}/auth/realms/${realm}/protocol/openid-connect/auth
+    OAUTH2_TOKEN_URL: https://${host}/auth/realms/${realm}/protocol/openid-connect/token
+    OAUTH_CALLBACK_URL: https://<your_jupyterhub_host>/hub/oauth_callback
 auth:
-  type: dummy
-  dummy:
-    password: ''
-  whitelist:
-    users:
-      - user1
-      - user2
-      - user3
-      - user4
-      - user5
-      - user6
-      - user7
-      - user8
-      - user9
-      - user10
+  type: custom
+  custom:
+    className: oauthenticator.generic.GenericOAuthenticator
+    config:
+      client_id: ""
+      client_secret: ""
+      token_url: https://${host}/auth/realms/${realm}/protocol/openid-connect/token
+      userdata_url: https://${host}/auth/realms/${realm}/protocol/openid-connect/userinfo
+      userdata_method: GET
+      userdata_params: {'state': 'state'}
+      username_key: email
   admin:
     users:
-      - admin
+      - anna.vangils@deltares.nl
 singleuser:
   lifecycleHooks:
     postStart:
@@ -30,8 +31,5 @@ singleuser:
     name: paotmcontainers.azurecr.io/hydrodynamicscourse
     tag: v4
   memory:
-    limit: 4G
-    guarantee: 4G
-  cpu:
-    limit: 1.5
-    guarantee: 1.5
+    limit: 3G
+    guarantee: 3G

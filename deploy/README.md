@@ -170,7 +170,7 @@ Update the helm installation:
 	 helm upgrade $RELEASE jupyterhub/jupyterhub --version=0.8.2 -f config.yaml
 This option is used in the PAOTM course at the moment.
 ## Authentication
-At the moment dummy authentication method is used. This is done with the following section in the config.yaml.
+At the moment dummy authentication method is available. This is done with the following section in the config.yaml.
 
 	auth:
 	  type: dummy
@@ -191,5 +191,24 @@ At the moment dummy authentication method is used. This is done with the followi
 	  admin:
 	    users:
 	      - admin
-This should be replaced with MyDeltares. A fixed domain-name would be required to set this up properly. Documentation about this can be found [here](https://zero-to-jupyterhub.readthedocs.io/en/latest/administrator/authentication.html). The OpenID Connect method can be used to connect with MyDeltares.
+
+Currently this is replaced with MyDeltares login. Documentation about this can be found [here](https://zero-to-jupyterhub.readthedocs.io/en/latest/administrator/authentication.html). The OpenID Connect method can be used to connect with MyDeltares. The following codeblock in the config.yaml is used for the myDeltares connection.
+
+	hub:
+	  extraEnv:
+	    OAUTH2_AUTHORIZE_URL: https://${host}/auth/realms/${realm}/protocol/openid-connect/auth
+	    OAUTH2_TOKEN_URL: https://${host}/auth/realms/${realm}/protocol/openid-connect/token
+	    OAUTH_CALLBACK_URL: https://<your_jupyterhub_host>/hub/oauth_callback
+	auth:
+	  type: custom
+	  custom:
+	    className: oauthenticator.generic.GenericOAuthenticator
+	    config:
+	      client_id: ""
+	      client_secret: ""
+	      token_url: https://${host}/auth/realms/${realm}/protocol/openid-connect/token
+	      userdata_url: https://${host}/auth/realms/${realm}/protocol/openid-connect/userinfo
+	      userdata_method: GET
+	      userdata_params: {'state': 'state'}
+	      username_key: email
 
