@@ -109,7 +109,7 @@ Stericcorrection            = 0                   # Steric correction on waterle
 [time]
 RefDate                     = 20010101            # Reference date (yyyymmdd)
 Tzone                       = 0.                  # Time zone assigned to input time series
-DtUser                      = 120.                # Time interval (s) for external forcing update
+DtUser                      = 10.                # Time interval (s) for external forcing update
 DtNodal                     = 21600.              # Time interval (s) for updating nodal factors in astronomical boundary conditions
 DtMax                       = 60.                 # Maximal computation timestep (s)
 Dtfacmax                    = 1.1                 # Max timestep increase factor ( )
@@ -136,7 +136,7 @@ FouFile                     =                     # Fourier analysis input file 
 FouUpdateStep               = 0                   # Fourier update step type: 0=every user time step, 1=every computational timestep.
 HisFile                     =                     # HisFile name *_his.nc, if empty, name of mdu file_his.nc is used
 MapFile                     =                     # MapFile name *_map.nc, if empty, name of mdu file_map.nc is used
-HisInterval                 = 120. 0. 0.          # History file output, given as "interval" "start period" "end period" (s)
+HisInterval                 = 5. 0. 0.          # History file output, given as "interval" "start period" "end period" (s)
 XLSInterval                 = 0.                  # Interval (s) between XLS history
 MapInterval                 = 1200. 0. 0.         # Map file output, given as "interval" "start period" "end period" (s)
 RstInterval                 = 86400. 0. 0.        # Restart file output, given as "interval" "start period" "end period" (s)
