@@ -1,15 +1,3 @@
-QUANTITY =windx
-FILENAME =windxdir.wnd
-FILETYPE =1
-METHOD   =1
-OPERAND  =O
-
-wUANTITY =windy
-FILENAME =windydir.wnd
-FILETYPE =1
-METHOD   =1
-OPERAND  =O
-
 QUANTITY =bedlevel
 FILENAME =all.pol 
 FILETYPE =10
