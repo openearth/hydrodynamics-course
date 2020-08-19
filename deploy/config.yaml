@@ -1,0 +1,35 @@
+proxy:
+  secretToken: ""
+hub:
+  extraEnv:
+    OAUTH2_AUTHORIZE_URL: https://${host}/auth/realms/${realm}/protocol/openid-connect/auth
+    OAUTH2_TOKEN_URL: https://${host}/auth/realms/${realm}/protocol/openid-connect/token
+    OAUTH_CALLBACK_URL: https://<your_jupyterhub_host>/hub/oauth_callback
+auth:
+  type: custom
+  custom:
+    className: oauthenticator.generic.GenericOAuthenticator
+    config:
+      client_id: ""
+      client_secret: ""
+      token_url: https://${host}/auth/realms/${realm}/protocol/openid-connect/token
+      userdata_url: https://${host}/auth/realms/${realm}/protocol/openid-connect/userinfo
+      userdata_method: GET
+      userdata_params: {'state': 'state'}
+      username_key: email
+  admin:
+    users:
+      - anna.vangils@deltares.nl
+singleuser:
+  lifecycleHooks:
+    postStart:
+      exec:
+        command: ["gitpuller", "https://github.com/openearth/hydrodynamics-course.git", "master", "notebooks"]
+  storage:
+    type: none
+  image:
+    name: paotmcontainers.azurecr.io/hydrodynamicscourse
+    tag: v4
+  memory:
+    limit: 3G
+    guarantee: 3G
