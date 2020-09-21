@@ -10,7 +10,7 @@ AutoStart                   = 0                   # Autostart simulation after l
 ModelSpecific               =                                                                 # Optional 'model specific ID', to enable certain custom runtime function calls (instead of via MDU name).
 
 [geometry]
-NetFile                     = 10x10km2_net.nc     # Unstructured grid file *_net.nc
+NetFile                     = 10x10km2_missingZ_net.nc     # Unstructured grid file *_net.nc
 GridEnclosureFile           =                     # Enclosure file to clip outer parts from the grid *.pol
 BedlevelFile                =                     # Bedlevels points file e.g. *.xyz, only needed for bedlevtype not equal 3
 DryPointsFile               =                     # Dry points file *.xyz (third column dummy z values), or dry areas polygon file *.pol (third column 1/-1: inside/outside)
@@ -35,7 +35,7 @@ PipeFile                    =                     # File *.pliz containing pipe-
 ShipdefFile                 =                     # File *.shd containing ship definitions
 WaterLevIni                 = 0.                  # Initial water level at missing s0 values
 waterdepthini1D             = 0.                  # Initial waterdepth in 1D
-BedlevUni                   = -5.                 # Uniform bed level used at missing z values if BedlevType > 2
+BedlevUni                   = -3.                 # Uniform bed level used at missing z values if BedlevType > 2
 BedlevType                  = 3                   # Bathymetry specification
                                                   # 1: at cell centers (from BathymetryFile)
                                                   # 2: at faces (from BathymetryFile)
