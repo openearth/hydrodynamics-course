@@ -1,0 +1,14 @@
+[boundary]
+QUANTITY=dischargebnd
+locationfile=rivdis120.pli
+forcingfile=rivdis120.bc
+
+[boundary]
+QUANTITY=waterlevelbnd
+locationfile=sealev.pli
+forcingfile=sealev.bc
+
+[boundary]
+QUANTITY=salinitybnd
+locationfile=seasal.pli
+forcingfile=seasal.bc
