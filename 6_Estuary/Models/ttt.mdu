@@ -39,7 +39,7 @@ ManholeFile                               =                     # File *.ini con
 PipeFile                                  =                     # File *.pliz containing pipe-based 'culverts'
 ShipdefFile                               =                     # File *.shd containing ship definitions
 WaterLevIni                               = 0.                  # Initial water level at missing s0 values
-BedlevUni                                 = -10.0                  # Uniform bed level used at missing z values if BedlevType > 2
+BedlevUni                                 = -12.0                  # Uniform bed level used at missing z values if BedlevType > 2
 BedlevType                                = 3                  # Bathymetry specification
                                                                 # 1: at cell centers (from BathymetryFile)
                                                                 # 2: at faces (from BathymetryFile)
