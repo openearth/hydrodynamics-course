@@ -1,12 +1,1 @@
-[forcing]
-Name                            = L11_0001
-Function                        = astronomic
-Quantity                        = astronomic component
-Unit                            = -
-Quantity                        = waterlevelbnd amplitude
-Unit                            = m
-Quantity                        = waterlevelbnd phase
-Unit                            = deg
-M2  0.6    0
-S2  0.3  0
-
+[forcing]Name                            = L11_0001Function                        = astronomicQuantity                        = astronomic componentUnit                            = -Quantity                        = waterlevelbnd amplitudeUnit                            = mQuantity                        = waterlevelbnd phaseUnit                            = degM2  0.6    0S2  0.3  0
