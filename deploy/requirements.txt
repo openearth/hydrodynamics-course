@@ -5,5 +5,5 @@ netCDF4
 matplotlib
 bmi-python
 docopt==0.6.1
-mako==1.1.1
+mako==1.3.11
 nbgitpuller
